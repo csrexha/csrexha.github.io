@@ -1,1 +1,1 @@
-Sitemap: https://github.com/HaCSRex/csrexha.github.io/sitemap.xml
+Sitemap: https://csrexha.github.io/sitemap.xml

@@ -2,15 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.23">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Chung Shing Rex Ha">
-<meta name="description" content="Chung Shing Rex Ha’s personal website">
 
 <title>Chung Shing Rex Ha</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -32,33 +33,33 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bfbbe0c147e33cf1d74c417d6bd5ba0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5fd4a02582ea6af4703f84bc57fa9173.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-bcd67fd93eebe3d839e0a494eaf2281a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5fd4a02582ea6af4703f84bc57fa9173.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "textbox",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -73,108 +74,174 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '', { 'anonymize_ip': true});
-</script>
-
-<!-- 
-Load Academicons v1: https://jpswalsh.github.io/academicons/
--->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<style>html{ scroll-behavior: smooth; }</style>
 
 
-<!---
-The following code are needed to show dimension citation and altmetrics.
-https://api.altmetric.com/embeds.html
-https://badge.dimensions.ai/
---->
-
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Chung Shing Rex Ha">
-<meta property="og:description" content="Chung Shing Rex Ha’s personal website">
-<meta property="og:image" content="https://github.com/HaCSRex/csrexha.github.io/files/profiles/profile1.JPG">
-<meta property="og:site_name" content="Chung Shing Rex Ha">
-<meta name="twitter:title" content="Chung Shing Rex Ha">
-<meta name="twitter:description" content="Chung Shing Rex Ha’s personal website">
-<meta name="twitter:image" content="https://github.com/HaCSRex/csrexha.github.io/files/profiles/profile1.JPG">
-<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -191,239 +258,94 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=news">
- <span class="dropdown-text">News</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=event">
- <span class="dropdown-text">Events</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./contact.html">
- <span class="dropdown-text">Contact</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">List of Publication</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=paper">
- <span class="dropdown-text">Selected Papers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Grants</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Outreach</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=presentation">
- <span class="dropdown-text">Presentations</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
-    </ul>
-  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./files/nsf-biosketch.pdf"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/HaCSRex" target="_blank"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/hacsrex.bsky.social" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
-</i> 
-<span class="menu-text"></span></a>
+    <a class="nav-link" href="./de/index.html"> 
+<span class="menu-text">Deutsch</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
-
-
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="files/profiles/profile1.JPG" class="about-image
-  rounded " style="width: 70%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Chung Shing Rex Ha</h1>
+<p class="subtitle lead">Biostatistician</p>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://www.unimedizin-mainz.de/imbei/biometrie-genomische-statistik-und-bioinformatik/mitarbeiter/chung-shing-rex-ha.html" class="about-link" rel="" target="_blank">
-    <i class="bi bi-sun"></i>
-     <span class="about-link-text">IMBEI</span>
-  </a>
-  <a href="mailto:hachungshingrex@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">E-mail</span>
-  </a>
-  <a href="https://www.linkedin.com/in/hacsrex/" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">hacsrex</span>
-  </a>
-  <a href="https://orcid.org/0000-0001-5238-0963" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-orcid"></i> ORCID</span>
-  </a>
-  <a href="https://scholar.google.de/citations?user=Pcv1bHEAAAAJ&amp;hl=de&amp;authuser=1" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I’m a <a href="https://github.com/drganghe/quarto-academic-website-template">Quarto Academeic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a>.</p>
-<p>I’m a template that you can fork to build your own website with easy adaptation and deployment.</p>
-<ol type="1">
-<li>Star this repository so you can easily come back to the template<br>
-</li>
-<li>Folk this tempate and rename it to <code>yourgithubusername.github.io</code><br>
-</li>
-<li>Update and edit <code>_quarto.yml</code> file for website setup<br>
-</li>
-<li>Update and add contents to <code>/posts</code>, <code>teaching.qmd</code>, <code>projects.yml</code>, and <code>people.qmd</code> and <code>/people</code> as needed.</li>
-<li><a href="https://quarto.org/docs/websites/">Render and preview</a> your website and <a href="https://quarto.org/docs/publishing/github-pages.html">publish</a> it to your GitHub.</li>
-<li>Polish and fix any issues<br>
-</li>
-<li>Enjoy your website!</li>
-</ol>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<ul>
-<li>Researcher, Univerisity</li>
-</ul>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<ul>
-<li>PhD, Univerisity</li>
-</ul>
-</section>
-</div></div>
-</div>
-
-<section id="recent-posts" class="level2">
-<h2 data-anchor-id="recent-posts">Recent Posts</h2>
-<p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728943200000">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder4.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quarto Academic Website Examples and Tips
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 15, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1745263533501" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<a href="./posts/event-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder2.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Event item
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 3, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719180000000" data-listing-file-modified-sort="1745263533501" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<a href="./posts/news-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-News item
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p align="right">
-<a href="./posts.html">All Posts »</a>
-</p>
 
 
+<p>Placeholder — pipeline test.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -466,13 +388,14 @@ Jun 24, 2024
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -487,7 +410,7 @@ Jun 24, 2024
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/drganghe\.github\.io\/custom");
+        var filterRegex = new RegExp("https:\/\/csrexha\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -501,11 +424,6 @@ Jun 24, 2024
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -823,8 +741,7 @@ Jun 24, 2024
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com/HaCSRex">Chung Shing Rex Ha</a> ©
-<script>document.write(new Date().getFullYear())</script>
+<p>© 2026 Chung Shing Rex Ha</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -832,19 +749,14 @@ Jun 24, 2024
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/HaCSRex" target="_blank">
+    <a class="nav-link" href="https://github.com/csrexha">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/hacsrex.bsky.social" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
-</a>
-  </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank">
-      <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/hacsrex">
+      <i class="bi bi-linkedin" role="img">
 </i> 
     </a>
   </li>  
@@ -856,4 +768,5 @@ Jun 24, 2024
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

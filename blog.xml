@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Chung Shing Rex Ha</title>
+<link>https://csrexha.github.io/blog.html</link>
+<atom:link href="https://csrexha.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Biostatistician — clinical trials, health-services research, and applied Bayesian methods.</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Sun, 30 Aug 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Placeholder post</title>
+  <link>https://csrexha.github.io/posts/hello/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Placeholder — pipeline test.</p>
+
+
+
+ ]]></description>
+  <category>meta</category>
+  <guid>https://csrexha.github.io/posts/hello/</guid>
+  <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
