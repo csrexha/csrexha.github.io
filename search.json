@@ -1,44 +1,149 @@
 [
   {
-    "objectID": "de/index.html",
-    "href": "de/index.html",
-    "title": "Chung Shing Rex Ha",
+    "objectID": "posts/null-result/index.html",
+    "href": "posts/null-result/index.html",
+    "title": "What a null result actually tells you",
     "section": "",
-    "text": "Platzhalter — Pipeline-Test."
+    "text": "The FAMOUS trial asked whether case-based care of multimorbid patients by advanced practice nurses, working inside general practices, would reduce ambulatory emergency contacts over twelve months. It was a two-arm, non-randomised, multicentre interventional study, funded by the German Innovationsfonds, with 2,451 patients enrolled — well above the recruitment target.\nThe answer was no. Neither the primary endpoint nor any secondary endpoint showed a reduction against routine care.\nI was the study statistician for the quantitative evaluation: I wrote the statistical analysis plan and ran every endpoint analysis. So this is the result I had to write up, and the temptation in that position is real. There is always a subgroup that looks better, always a sensitivity analysis that could be promoted to the headline. Resisting that is most of the job."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Placeholder post\n\n\n\nmeta\n\n\n\n\n\n\n\n\n\nAug 30, 2026\n\n\n\n\n\nNo matching items"
+    "objectID": "posts/null-result/index.html#why-the-analysis-moved",
+    "href": "posts/null-result/index.html#why-the-analysis-moved",
+    "title": "What a null result actually tells you",
+    "section": "Why the analysis moved",
+    "text": "Why the analysis moved\nThe protocol had planned a t-test and Poisson regression. The observed data had neither the distribution nor the dispersion for it: excess zeros, because most patients have no emergency contact at all in a year, and overdispersion among those who do.\nSo the primary analysis moved to a Bayesian zero-inflated negative binomial model with weakly-informative priors, fitted by MCMC in brms/Stan, reporting incidence rate ratios with credible intervals. Control patients were matched 1:2 on age, sex, and the number and type of chronic conditions.\nThat is a deviation from the protocol, and the right way to handle a deviation is to document it and its rationale rather than to quietly perform it. It went into the evaluation report with the reasoning attached."
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Placeholder — pipeline test."
+    "objectID": "posts/null-result/index.html#why-the-result-was-probably-null",
+    "href": "posts/null-result/index.html#why-the-result-was-probably-null",
+    "title": "What a null result actually tells you",
+    "section": "Why the result was probably null",
+    "text": "Why the result was probably null\nA null result is only useful if you are honest about which of the plausible explanations you cannot rule out. Four mattered here.\nThe design was not randomised. Practices opted in, and patients in participating practices differ from those who are not. Matching on age, sex and chronic-condition count narrows the gap; it does not close it.\nRoutine claims data capture severity poorly. Statutory health-insurance records are excellent at telling you that a contact happened and almost silent on how ill the person was. Much of what an advanced practice nurse might plausibly change is invisible in that data.\nThe baseline assumption was too high. Power was calculated against an expected 2.7 emergency contacts per person-year, a figure drawn from nursing-home literature. The population actually enrolled was not that population, and the real rate was lower — which makes a given absolute reduction much harder to detect.\nCOVID-19 was not modelled. The study ran across a period when patterns of ambulatory care contact changed for reasons that had nothing to do with the intervention."
   },
   {
-    "objectID": "posts/hello/index.html",
-    "href": "posts/hello/index.html",
-    "title": "Placeholder post",
-    "section": "",
-    "text": "Placeholder — pipeline test."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Chung Shing Rex Ha",
-    "section": "",
-    "text": "Placeholder — pipeline test."
+    "objectID": "posts/null-result/index.html#the-part-worth-keeping",
+    "href": "posts/null-result/index.html#the-part-worth-keeping",
+    "title": "What a null result actually tells you",
+    "section": "The part worth keeping",
+    "text": "The part worth keeping\nThe most useful sentence in a null trial report is usually the one that says which assumption was wrong, because that is the sentence the next study needs. Here it was the baseline event rate: an effect size justified from a literature about a different population.\nReporting that plainly costs nothing except the pleasant story. It is also the only version of the result that anyone can build on."
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Placeholder — pipeline test."
+    "text": "Author position and my actual contribution are stated for each entry. ORCID: 0000-0001-5238-0963."
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-articles",
+    "href": "publications.html#peer-reviewed-articles",
+    "title": "Publications",
+    "section": "Peer-reviewed articles",
+    "text": "Peer-reviewed articles\nZimniak L, Soufiah E, Ha CSR, Gretschel S, Paschold M. Improvement of mobility and motivation in patients with elective colorectal resection using tracking devices and utilizing self-awareness (IMPETUS): a randomized controlled trial in a traditional non-ERAS clinical setting. BMC Surgery 2026;26(1). doi:10.1186/s12893-026-03864-6\n: Third of five authors. As external consulting statistician I performed the a priori power calculation, contributed to the ethics-committee submission, and ran the primary-endpoint analysis in R.\nGruebl T, Jungblut J, Rupp D, Ha CSR, et al. The use of epinephrine in out-of-hospital cardiac arrest: a retrospective study of the effects of administration timing and cumulative doses on outcome in a physician-staffed emergency medical service system. BMC Emergency Medicine 2025;25(1):182. doi:10.1186/s12873-025-01351-4\n: Co-author. I restructured a single-table retrospective dataset into normalised relational tables, ran the statistical analysis, and contributed to the publication.\nSwojanowsky P, Bundis-Dimitrijevic M, Ha CSR, von Korn H. Rationale and design of the VAST-AF trial: a randomized controlled, blinded, clinical trial to evaluate transcutaneous vagal nerve stimulation for the prevention of persistent atrial fibrillation recurrence. American Heart Journal 2024;268:37–44. doi:10.1016/j.ahj.2023.11.015\n: Third of four authors. Statistical consulting on a randomised, controlled, double-blind trial in cardiology.\nHa CSR, Müller-Nurasyid M, Petrera A, Hauck SM, Marini F, Bartsch DK, Slater EP, Strauch K. Proteomics biomarker discovery for individualized prevention of familial pancreatic cancer using statistical learning. PLOS ONE 2023;18(1):e0280399. doi:10.1371/journal.pone.0280399\n: First author. An end-to-end machine-learning pipeline identifying early-detection biomarkers from next-generation proteomics in a pancreatic-cancer cohort, using model-based gradient boosting with stability selection for a high-dimensional, imbalanced design, validated with a dedicated simulation study."
+  },
+  {
+    "objectID": "publications.html#manuscripts-under-review",
+    "href": "publications.html#manuscripts-under-review",
+    "title": "Publications",
+    "section": "Manuscripts under review",
+    "text": "Manuscripts under review\nHa CSR, et al. A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic Biomarkers through Machine Learning. Under review, 2026.\n: First author. Machine learning on LC-MS metabolomics for early detection, with a molecular interaction network constructed using Gaussian graphical models to reveal key interactions among compounds in high-risk individuals.\nBüchler B, Büttner M, Gianicolo E, Ha CSR. Effects of care of multimorbid patients in general practices by advanced practice nurses. Results of a nonrandomized controlled trial. Submitted to BMC Health Services Research.\n: Co-author and lead study statistician for the quantitative evaluation. I authored the statistical analysis plan and ran all endpoint analyses.\nHerold S, Tilch M-K, Simon L, Kinkel B, Schranz M, Theobald M, Ha CSR, Singer S, Hess G. Information deficits and satisfaction with education process in patients with malignant lymphoma: correlation of objective and subjective informedness. Under review at The Oncologist, submitted July 2026.\n: Co-author and statistician — a study I supported from design and sample size through analysis to submission."
+  },
+  {
+    "objectID": "publications.html#conference-contributions",
+    "href": "publications.html#conference-contributions",
+    "title": "Publications",
+    "section": "Conference contributions",
+    "text": "Conference contributions\nHerold S, et al. Information deficits and satisfaction with education process in patients with malignant lymphoma. DGHO Annual Meeting 2025 (abstract). Co-author."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chung Shing Rex Ha",
+    "section": "",
+    "text": "E-mail\n  \n  \n     ORCID\n  \n  \n     Google Scholar\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \nI am a biostatistician based in Mainz, Germany. For six years I worked at the Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI), Universitätsmedizin Mainz, on oncology biostatistics and investigator-initiated clinical trials, alongside health-services research.\nMy methodological focus is applied Bayesian modelling and design — Bayesian compartment modelling of MRI time-series, Bayesian additive regression trees on high-dimensional omics, precision-based sample-size determination, and a Bayesian zero-inflated negative binomial primary trial analysis.\nI am completing a PhD in the Faculty of Biology at Johannes Gutenberg University Mainz on omics-based biomarker discovery for familial pancreatic cancer using machine learning."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Chung Shing Rex Ha",
+    "section": "What I do",
+    "text": "What I do\nClinical trial statistics. Statistical analysis plans on the ICH E9(R1) estimand framework, sample-size and power calculations, primary-endpoint analysis, and the statistical sections of ethics-committee and funder submissions.\nMachine learning on omics data. Model-based gradient boosting with stability selection, Bayesian additive regression trees and Gaussian graphical models applied to high-dimensional proteomics and LC-MS metabolomics, with explainable-ML methods to make model behaviour interpretable to clinical collaborators.\nStatistical consulting. Six years advising doctoral candidates and research groups across more than fifteen clinical departments — translating clinical questions into designs, endpoints and analysis plans, and delivering publication-ready results.\nRead the full CV Publications"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Mainz, Germany · hachungshingrex at gmail dot com · ORCID 0000-0001-5238-0963 · github.com/csrexha\nPermanent residence in Germany (Niederlassungserlaubnis) — unrestricted right to work, no employer sponsorship required."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "Experience",
+    "text": "Experience\n\nResearch Associate — IMBEI, Universitätsmedizin Mainz\nOct 2019 – Nov 2025 · Department of Genomic Statistics and Bioinformatics\n\nStudy statistician for the quantitative evaluation of a 2,451-patient non-randomised controlled trial — sole author of the statistical analysis plan; performed all primary and secondary endpoint analyses.\nModelled recurrent healthcare-utilisation endpoints from routine statutory-insurance data using zero-inflated negative binomial regression with 1:2 covariate matching, reporting incidence-rate ratios.\nCo-authored the formal evaluation report to the German Federal Joint Committee (G-BA Innovationsausschuss) for a publicly funded trial, owning the quantitative evaluation.\nIntegrated electronic patient records from a regional physicians’ association and six statutory health insurers into analysis-ready datasets, with cross-source quality control and conflict reconciliation, together with our data-management team.\nDeveloped a data management plan and data transfer specification with a data-management specialist for external health-insurance data providers, plus a data review plan comparing internal against each external source.\nBuilt machine-learning pipelines and interactive dashboards for pancreatic-cancer biomarker discovery on next-generation proteomics and LC-MS metabolomics.\nRestructured a single-table retrospective dataset into normalised relational tables suitable for analysis and publication.\nProvided statistical consulting to medical doctoral candidates and research groups across more than fifteen clinical departments.\n\n\n\nResearch Associate — Institute of Genetic Epidemiology, Helmholtz Zentrum München\nJun 2019 – Sep 2019\n\nConstructed detailed pedigrees for complex family structures to improve genomic analysis of familial pancreatic cancer.\n\n\n\nResearch Assistant — Institute of Genetic Epidemiology, Helmholtz Zentrum München\nSep 2018 – May 2019\n\nApplied machine learning to metabolic differences between cancer patients and healthy individuals for early detection.\n\n\n\nJunior Market Analyst — Autoduck Industrial Ltd, Hong Kong\nAug 2013 – Oct 2014\n\nMonthly sales-activity summaries to evaluate marketing strategy; market-trend analysis to identify prospective customers."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nPhD, Biology — Johannes Gutenberg University Mainz · 2023 – present\n\nOmics-based Biomarker Discovery for Familial Pancreatic Cancer using Machine Learning. Write-up stage; submission targeted end 2026 / early 2027.\n\nM.Sc. Biostatistics — Ludwig Maximilian University of Munich · 2019\n\nThesis: Bayesian Blind Estimation of the Arterial Input Function in Dynamic Contrast-Enhanced MRI (R, Stan).\n\n\nB.Sc. Investment Science — Hong Kong Polytechnic University · 2013\nHigher Diploma in Financial Planning — Hong Kong\n\nDSH-2 — Ludwig Maximilian University of Munich · 2016\n\nGerman language qualification for university admission."
+  },
+  {
+    "objectID": "cv.html#selected-projects",
+    "href": "cv.html#selected-projects",
+    "title": "Curriculum Vitae",
+    "section": "Selected projects",
+    "text": "Selected projects\nFAMOUS — case-based care of multimorbid patients by advanced practice nurses. Innovationsfonds / G-BA, FKZ 01NVF19012. Two-arm non-randomised multicentre interventional study, 2,451 patients. Sole author of an estimand-based statistical analysis plan (ICH E9(R1)) defining a primary and four secondary estimands; Bayesian zero-inflated negative binomial primary analysis in brms/Stan.\nFaPaCa — German National Case Collection for Familial Pancreatic Cancer. Data management and statistical analysis; machine-learning biomarker pipelines on next-generation proteomics and LC-MS metabolomics. Basis of the doctoral work.\nIMPETUS — randomised controlled trial in elective colorectal surgery. A priori power calculation, contribution to the ethics-committee submission, and the primary-endpoint analysis."
+  },
+  {
+    "objectID": "cv.html#methods",
+    "href": "cv.html#methods",
+    "title": "Curriculum Vitae",
+    "section": "Methods",
+    "text": "Methods\n\nSurvival analysis (Cox regression, Kaplan–Meier, log-rank), mixed models, generalised estimating equations, bootstrap.\nBayesian modelling in R with Stan and brms — priors, MCMC diagnostics, posterior summaries and credible intervals.\nSample-size and power calculations across clinical trials, observational studies and animal-research applications, including Bayesian precision-based determination and recurrent-event planning with intra-patient correlation and cluster effects.\nModel-based gradient boosting, stability selection, Bayesian additive regression trees and Gaussian graphical models on high-dimensional omics data.\nExplainable ML — SHAP, LIME, partial dependence plots, stability selection.\nPropensity and covariate matching (MatchIt)."
+  },
+  {
+    "objectID": "cv.html#programming-and-tools",
+    "href": "cv.html#programming-and-tools",
+    "title": "Curriculum Vitae",
+    "section": "Programming and tools",
+    "text": "Programming and tools\nR (Shiny, pharmaverse) · Stan · Python · PostgreSQL · bash · Git · Docker · Snakemake · Linux\nFamiliar with CDISC concepts (SDTM, ADaM); building hands-on ADaM practice with the R pharmaverse."
+  },
+  {
+    "objectID": "cv.html#teaching-and-supervision",
+    "href": "cv.html#teaching-and-supervision",
+    "title": "Curriculum Vitae",
+    "section": "Teaching and supervision",
+    "text": "Teaching and supervision\n\nTaught regression analysis in the cross-disciplinary Q1 module for medical students, IMBEI · 2020–2024.\nRan hypothesis-testing workshops for doctoral researchers at the Center for Thrombosis and Hemostasis, Universitätsmedizin Mainz · 2023–2024.\nSupervised bachelor’s and master’s students and research assistants; co-supervised a bachelor thesis."
+  },
+  {
+    "objectID": "cv.html#award",
+    "href": "cv.html#award",
+    "title": "Curriculum Vitae",
+    "section": "Award",
+    "text": "Award\n1st place, 2nd curATime Hackathon “curAHack” — Gutenberg Digital Hub Mainz, 2025. Multiclass classification of anti-CRISPR proteins."
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "Curriculum Vitae",
+    "section": "Languages",
+    "text": "Languages\nGerman (DSH-2, six years professional use) · English (fluent, negotiation level) · Cantonese (native) · Mandarin (good working knowledge)"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nSee the publications page."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "What a null result actually tells you\n\n\n\nbiostatistics\n\ntrials\n\n\n\nA trial I ran the analysis for found nothing. That is not the same as learning nothing.\n\n\n\n\n\nAug 30, 2026\n\n\n\n\n\nNo matching items"
   }
 ]

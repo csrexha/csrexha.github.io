@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://csrexha.github.io/de/index.html</loc>
-    <lastmod>2026-08-30T19:22:03.336Z</lastmod>
-  </url>
-  <url>
-    <loc>https://csrexha.github.io/blog.html</loc>
-    <lastmod>2026-08-30T19:22:03.336Z</lastmod>
-  </url>
-  <url>
-    <loc>https://csrexha.github.io/cv.html</loc>
-    <lastmod>2026-08-30T19:22:03.336Z</lastmod>
-  </url>
-  <url>
-    <loc>https://csrexha.github.io/posts/hello/index.html</loc>
-    <lastmod>2026-08-30T19:22:03.337Z</lastmod>
-  </url>
-  <url>
-    <loc>https://csrexha.github.io/index.html</loc>
-    <lastmod>2026-08-30T19:22:03.336Z</lastmod>
+    <loc>https://csrexha.github.io/posts/null-result/index.html</loc>
+    <lastmod>2026-08-30T19:39:01.578Z</lastmod>
   </url>
   <url>
     <loc>https://csrexha.github.io/publications.html</loc>
-    <lastmod>2026-08-30T19:22:03.337Z</lastmod>
+    <lastmod>2026-08-30T19:39:01.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://csrexha.github.io/index.html</loc>
+    <lastmod>2026-08-30T19:39:01.577Z</lastmod>
+  </url>
+  <url>
+    <loc>https://csrexha.github.io/cv.html</loc>
+    <lastmod>2026-08-30T19:39:01.577Z</lastmod>
+  </url>
+  <url>
+    <loc>https://csrexha.github.io/blog.html</loc>
+    <lastmod>2026-08-30T19:39:01.577Z</lastmod>
   </url>
 </urlset>

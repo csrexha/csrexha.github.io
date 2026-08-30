@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publikationen",
+    "section": "",
+    "text": "Zu jedem Eintrag sind die Autorenposition und mein tatsächlicher Beitrag angegeben. ORCID: 0000-0001-5238-0963."
+  },
+  {
+    "objectID": "publications.html#begutachtete-zeitschriftenartikel",
+    "href": "publications.html#begutachtete-zeitschriftenartikel",
+    "title": "Publikationen",
+    "section": "Begutachtete Zeitschriftenartikel",
+    "text": "Begutachtete Zeitschriftenartikel\nZimniak L, Soufiah E, Ha CSR, Gretschel S, Paschold M. Improvement of mobility and motivation in patients with elective colorectal resection using tracking devices and utilizing self-awareness (IMPETUS): a randomized controlled trial in a traditional non-ERAS clinical setting. BMC Surgery 2026;26(1). doi:10.1186/s12893-026-03864-6\n: Dritter von fünf Autoren. Als externer beratender Statistiker führte ich die A-priori-Fallzahlplanung durch, wirkte am Ethikantrag mit und wertete den primären Endpunkt in R aus.\nGruebl T, Jungblut J, Rupp D, Ha CSR, et al. The use of epinephrine in out-of-hospital cardiac arrest: a retrospective study of the effects of administration timing and cumulative doses on outcome in a physician-staffed emergency medical service system. BMC Emergency Medicine 2025;25(1):182. doi:10.1186/s12873-025-01351-4\n: Koautor. Überführung eines retrospektiven Einzeltabellen-Datensatzes in normalisierte relationale Tabellen, statistische Auswertung und Mitwirkung an der Publikation.\nSwojanowsky P, Bundis-Dimitrijevic M, Ha CSR, von Korn H. Rationale and design of the VAST-AF trial: a randomized controlled, blinded, clinical trial to evaluate transcutaneous vagal nerve stimulation for the prevention of persistent atrial fibrillation recurrence. American Heart Journal 2024;268:37–44. doi:10.1016/j.ahj.2023.11.015\n: Dritter von vier Autoren. Statistische Beratung zu einer randomisierten, kontrollierten, doppelblinden Studie in der Kardiologie.\nHa CSR, Müller-Nurasyid M, Petrera A, Hauck SM, Marini F, Bartsch DK, Slater EP, Strauch K. Proteomics biomarker discovery for individualized prevention of familial pancreatic cancer using statistical learning. PLOS ONE 2023;18(1):e0280399. doi:10.1371/journal.pone.0280399\n: Erstautor. End-to-End-Machine-Learning-Pipeline zur Identifikation von Früherkennungsbiomarkern aus Next-Generation-Proteomics in einer Pankreaskarzinom-Kohorte; Model-based Gradient Boosting mit Stability Selection für ein hochdimensionales, unbalanciertes Design, validiert durch eine Simulationsstudie."
+  },
+  {
+    "objectID": "publications.html#manuskripte-in-begutachtung",
+    "href": "publications.html#manuskripte-in-begutachtung",
+    "title": "Publikationen",
+    "section": "Manuskripte in Begutachtung",
+    "text": "Manuskripte in Begutachtung\nHa CSR, et al. A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic Biomarkers through Machine Learning. In Begutachtung, 2026.\n: Erstautor. Maschinelles Lernen auf LC-MS-Metabolomics-Daten zur Früherkennung sowie Konstruktion eines metabolomischen Interaktionsnetzwerks mittels Gaußscher graphischer Modelle zur Aufdeckung zentraler Wechselwirkungen bei Hochrisikopersonen.\nBüchler B, Büttner M, Gianicolo E, Ha CSR. Effects of care of multimorbid patients in general practices by advanced practice nurses. Results of a nonrandomized controlled trial. Eingereicht bei BMC Health Services Research.\n: Koautor und leitender Studienstatistiker für die quantitative Evaluation. Alleiniger Autor des statistischen Analyseplans; Durchführung aller Endpunktanalysen.\nHerold S, Tilch M-K, Simon L, Kinkel B, Schranz M, Theobald M, Ha CSR, Singer S, Hess G. Information deficits and satisfaction with education process in patients with malignant lymphoma: correlation of objective and subjective informedness. In Begutachtung bei The Oncologist, eingereicht im Juli 2026.\n: Koautor und Statistiker — von Konzeption und Fallzahlplanung über die Auswertung bis zur Einreichung begleitet."
+  },
+  {
+    "objectID": "publications.html#konferenzbeiträge",
+    "href": "publications.html#konferenzbeiträge",
+    "title": "Publikationen",
+    "section": "Konferenzbeiträge",
+    "text": "Konferenzbeiträge\nHerold S, et al. Information deficits and satisfaction with education process in patients with malignant lymphoma. Jahrestagung der DGHO 2025 (Abstract). Koautor."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chung Shing Rex Ha",
+    "section": "",
+    "text": "E-Mail\n  \n  \n     ORCID\n  \n  \n     Google Scholar\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \nIch bin Biostatistiker und lebe in Mainz. Sechs Jahre lang war ich am Institut für Medizinische Biometrie, Epidemiologie und Informatik (IMBEI) der Universitätsmedizin Mainz tätig — in der Onkologie-Biostatistik, in investigator-initiierten klinischen Studien sowie in der Versorgungsforschung.\nMein methodischer Schwerpunkt ist die angewandte bayesianische Modellierung und Studienplanung: bayesianische Kompartimentmodellierung von MRT-Zeitreihen, Bayesian Additive Regression Trees auf hochdimensionalen Omics-Daten, präzisionsbasierte Fallzahlplanung sowie eine bayesianische ZINB-Primäranalyse.\nDerzeit schließe ich meine Promotion am Fachbereich Biologie der Johannes Gutenberg-Universität Mainz ab, zum Thema Omics-basierte Biomarker-Entdeckung beim familiären Pankreaskarzinom mittels maschinellen Lernens."
+  },
+  {
+    "objectID": "index.html#schwerpunkte",
+    "href": "index.html#schwerpunkte",
+    "title": "Chung Shing Rex Ha",
+    "section": "Schwerpunkte",
+    "text": "Schwerpunkte\nStatistik klinischer Studien. Estimand-basierte statistische Analysepläne (ICH E9(R1)), Fallzahl- und Powerberechnungen, Auswertung primärer Endpunkte sowie die statistischen Abschnitte von Ethik- und Förderanträgen.\nMaschinelles Lernen auf Omics-Daten. Model-based Gradient Boosting, Stability Selection, Bayesian Additive Regression Trees und Gaußsche graphische Modelle für hochdimensionale Proteomics- und LC-MS-Metabolomics-Daten, ergänzt um Explainable-ML-Methoden zur Vermittlung des Modellverhaltens an klinische Kooperationspartner.\nStatistische Beratung. Sechs Jahre Beratung von Doktorand:innen und Forschungsgruppen aus über fünfzehn klinischen Fachbereichen — Übersetzung klinischer Fragestellungen in Studiendesigns, Endpunkte und Analysepläne bis zu publikationsreifen Ergebnissen.\nLebenslauf Publikationen"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Lebenslauf",
+    "section": "",
+    "text": "Mainz, Deutschland · hachungshingrex at gmail dot com · ORCID 0000-0001-5238-0963 · github.com/csrexha\nNiederlassungserlaubnis (unbefristet) — uneingeschränkte Arbeitserlaubnis, keine Genehmigung durch den Arbeitgeber erforderlich."
+  },
+  {
+    "objectID": "cv.html#berufserfahrung",
+    "href": "cv.html#berufserfahrung",
+    "title": "Lebenslauf",
+    "section": "Berufserfahrung",
+    "text": "Berufserfahrung\n\nWissenschaftlicher Mitarbeiter — IMBEI, Universitätsmedizin Mainz\nOkt. 2019 – Nov. 2025 · Abteilung für Genomische Statistik und Bioinformatik\n\nStudienstatistiker für die quantitative Evaluation einer nicht-randomisierten kontrollierten Studie mit 2.451 Patient:innen — alleiniger Autor des statistischen Analyseplans; Durchführung aller primären und sekundären Endpunktanalysen.\nModellierung rekurrenter Versorgungsendpunkte aus GKV-Routinedaten mittels Zero-Inflated-Negative-Binomial-Regression mit 1:2-Matching; Berichterstattung als Inzidenzratenverhältnisse.\nMitautor des Evaluationsberichts an den Innovationsausschuss des G-BA für eine öffentlich geförderte Studie; verantwortlich für die quantitative Evaluation.\nIntegration elektronischer Patientendaten einer Kassenärztlichen Vereinigung und sechs gesetzlicher Krankenkassen in analysefertige Datensätze, mit quellenübergreifender Qualitätskontrolle und Konfliktauflösung — gemeinsam mit unserem Datenmanagement-Team.\nEntwicklung eines Datenmanagementplans und einer Datentransferspezifikation gemeinsam mit einer Datenmanagement-Spezialistin für externe Krankenkassen sowie eines Datenprüfplans zum Abgleich interner und externer Quellen.\nAufbau von Machine-Learning-Pipelines und interaktiven Dashboards zur Biomarker-Entdeckung beim Pankreaskarzinom auf Basis von Next-Generation-Proteomics und LC-MS-Metabolomics.\nÜberführung eines retrospektiven Einzeltabellen-Datensatzes in normalisierte relationale Tabellen für Auswertung und Publikation.\nStatistische Beratung für Doktorand:innen und Forschungsgruppen aus über fünfzehn klinischen Fachbereichen.\n\n\n\nWissenschaftlicher Mitarbeiter — Institut für Genetische Epidemiologie, Helmholtz Zentrum München\nJuni 2019 – Sep. 2019\n\nErstellung detaillierter Stammbäume für komplexe Familienstrukturen zur Verbesserung der genomischen Analyse des familiären Pankreaskarzinoms.\n\n\n\nWissenschaftliche Hilfskraft — Institut für Genetische Epidemiologie, Helmholtz Zentrum München\nSep. 2018 – Mai 2019\n\nAnwendung maschinellen Lernens auf metabolische Unterschiede zwischen Krebspatient:innen und gesunden Personen zur Früherkennung.\n\n\n\nJunior Market Analyst — Autoduck Industrial Ltd, Hongkong\nAug. 2013 – Okt. 2014\n\nMonatliche Auswertungen der Vertriebsaktivitäten zur Bewertung der Marketingstrategie; Marktanalysen zur Identifikation potenzieller Kunden."
+  },
+  {
+    "objectID": "cv.html#ausbildung",
+    "href": "cv.html#ausbildung",
+    "title": "Lebenslauf",
+    "section": "Ausbildung",
+    "text": "Ausbildung\n\nPromotion, Biologie — Johannes Gutenberg-Universität Mainz · seit 2023\n\nOmics-based Biomarker Discovery for Familial Pancreatic Cancer using Machine Learning. In der Schreibphase; Einreichung angestrebt für Ende 2026 / Anfang 2027.\n\nM.Sc. Biostatistik — Ludwig-Maximilians-Universität München · 2019\n\nMasterarbeit: Bayesian Blind Estimation of the Arterial Input Function in Dynamic Contrast-Enhanced MRI (R, Stan).\n\n\nB.Sc. Investment Science — Hong Kong Polytechnic University · 2013\nHigher Diploma in Financial Planning — Hongkong\nDSH-2 — Ludwig-Maximilians-Universität München · 2016"
+  },
+  {
+    "objectID": "cv.html#ausgewählte-projekte",
+    "href": "cv.html#ausgewählte-projekte",
+    "title": "Lebenslauf",
+    "section": "Ausgewählte Projekte",
+    "text": "Ausgewählte Projekte\nFAMOUS — fallbezogene Versorgung multimorbider Patient:innen durch Advanced Practice Nurses. Innovationsfonds / G-BA, FKZ 01NVF19012. Zweiarmige, nicht-randomisierte, multizentrische interventionelle Studie mit 2.451 Patient:innen. Alleiniger Autor eines estimand-basierten statistischen Analyseplans (ICH E9(R1)) mit einem primären und vier sekundären Estimands; bayesianische ZINB-Primäranalyse in brms/Stan.\nFaPaCa — Nationales Fallregister für familiäres Pankreaskarzinom. Datenmanagement und statistische Auswertung; Machine-Learning-Pipelines zur Biomarker-Entdeckung auf Proteomics- und LC-MS-Metabolomics-Daten. Grundlage der Promotion.\nIMPETUS — randomisierte kontrollierte Studie in der elektiven kolorektalen Chirurgie. A-priori-Fallzahlplanung, Mitwirkung am Ethikantrag sowie Auswertung des primären Endpunkts."
+  },
+  {
+    "objectID": "cv.html#methoden",
+    "href": "cv.html#methoden",
+    "title": "Lebenslauf",
+    "section": "Methoden",
+    "text": "Methoden\n\nÜberlebenszeitanalyse (Cox-Regression, Kaplan-Meier, Log-Rank-Test), gemischte Modelle, verallgemeinerte Schätzgleichungen (GEE), Bootstrap.\nBayesianische Modellierung in R mit Stan und brms — Priorwahl, MCMC-Diagnostik, Posterior-Zusammenfassungen und Kredibilitätsintervalle.\nFallzahl- und Powerberechnungen für klinische Studien, Beobachtungsstudien und Tierversuchsanträge, einschließlich bayesianischer, präzisionsbasierter Fallzahlplanung sowie Planung für rekurrente Ereignisse unter Berücksichtigung von Intra-Patienten-Korrelation und Cluster-Effekten.\nModel-based Gradient Boosting, Stability Selection, Bayesian Additive Regression Trees und Gaußsche graphische Modelle für hochdimensionale Omics-Daten.\nExplainable-ML-Methoden — SHAP, LIME, Partial Dependence Plots, Stability Selection.\nPropensity- und Kovariaten-Matching (MatchIt)."
+  },
+  {
+    "objectID": "cv.html#programmierung-und-werkzeuge",
+    "href": "cv.html#programmierung-und-werkzeuge",
+    "title": "Lebenslauf",
+    "section": "Programmierung und Werkzeuge",
+    "text": "Programmierung und Werkzeuge\nR (Shiny, pharmaverse) · Stan · Python · PostgreSQL · bash · Git · Docker · Snakemake · Linux\nVertraut mit CDISC-Konzepten (SDTM, ADaM); Aufbau praktischer ADaM-Erfahrung mit dem R-pharmaverse."
+  },
+  {
+    "objectID": "cv.html#lehre-und-betreuung",
+    "href": "cv.html#lehre-und-betreuung",
+    "title": "Lebenslauf",
+    "section": "Lehre und Betreuung",
+    "text": "Lehre und Betreuung\n\nLehrbeauftragter für Regressionsanalyse im fächerübergreifenden Modul Q1 für Medizinstudierende, IMBEI · 2020–2024.\nStatistik-Workshops zu Hypothesentests für Doktorierende am Zentrum für Thrombose und Hämostase, Universitätsmedizin Mainz · 2023–2024.\nBetreuung von Bachelor- und Masterstudierenden sowie wissenschaftlichen Hilfskräften; Mitbetreuung einer Bachelorarbeit."
+  },
+  {
+    "objectID": "cv.html#auszeichnung",
+    "href": "cv.html#auszeichnung",
+    "title": "Lebenslauf",
+    "section": "Auszeichnung",
+    "text": "Auszeichnung\n1. Platz, 2. curATime Hackathon „curAHack” — Gutenberg Digital Hub Mainz, 2025. Multiclass-Klassifikation von Anti-CRISPR-Proteinen."
+  },
+  {
+    "objectID": "cv.html#sprachen",
+    "href": "cv.html#sprachen",
+    "title": "Lebenslauf",
+    "section": "Sprachen",
+    "text": "Sprachen\nDeutsch (DSH-2, sechs Jahre berufliche Praxis) · Englisch (verhandlungssicher) · Kantonesisch (Muttersprache) · Mandarin (gute Kenntnisse)"
+  },
+  {
+    "objectID": "cv.html#publikationen",
+    "href": "cv.html#publikationen",
+    "title": "Lebenslauf",
+    "section": "Publikationen",
+    "text": "Publikationen\nSiehe die Publikationsseite."
+  }
+]

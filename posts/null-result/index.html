@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-08-30">
+<meta name="description" content="A trial I ran the analysis for found nothing. That is not the same as learning nothing.">
 
-<title>Placeholder post – Chung Shing Rex Ha</title>
+<title>What a null result actually tells you – Chung Shing Rex Ha</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -78,6 +79,12 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
+<meta property="og:title" content="What a null result actually tells you – Chung Shing Rex Ha">
+<meta property="og:description" content="A trial I ran the analysis for found nothing. That is not the same as learning nothing.">
+<meta property="og:site_name" content="Chung Shing Rex Ha">
+<meta name="twitter:title" content="What a null result actually tells you – Chung Shing Rex Ha">
+<meta name="twitter:description" content="A trial I ran the analysis for found nothing. That is not the same as learning nothing.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -278,8 +285,13 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../de/index.html"> 
-<span class="menu-text">Deutsch</span></a>
+    <a class="nav-link" href="../../de/index.qmd"> 
+<span class="menu-text">DE</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/csrexha" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -293,8 +305,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why-the-analysis-moved" id="toc-why-the-analysis-moved" class="nav-link active" data-scroll-target="#why-the-analysis-moved">Why the analysis moved</a></li>
+  <li><a href="#why-the-result-was-probably-null" id="toc-why-the-result-was-probably-null" class="nav-link" data-scroll-target="#why-the-result-was-probably-null">Why the result was probably null</a></li>
+  <li><a href="#the-part-worth-keeping" id="toc-the-part-worth-keeping" class="nav-link" data-scroll-target="#the-part-worth-keeping">The part worth keeping</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -302,12 +322,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Placeholder post</h1>
+<h1 class="title">What a null result actually tells you</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">meta</div>
+    <div class="quarto-category">biostatistics</div>
+    <div class="quarto-category">trials</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    A trial I ran the analysis for found nothing. That is not the same as learning nothing.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -328,9 +354,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Placeholder — pipeline test.</p>
+<p>The FAMOUS trial asked whether case-based care of multimorbid patients by advanced practice nurses, working inside general practices, would reduce ambulatory emergency contacts over twelve months. It was a two-arm, non-randomised, multicentre interventional study, funded by the German Innovationsfonds, with 2,451 patients enrolled — well above the recruitment target.</p>
+<p>The answer was no. Neither the primary endpoint nor any secondary endpoint showed a reduction against routine care.</p>
+<p>I was the study statistician for the quantitative evaluation: I wrote the statistical analysis plan and ran every endpoint analysis. So this is the result I had to write up, and the temptation in that position is real. There is always a subgroup that looks better, always a sensitivity analysis that could be promoted to the headline. Resisting that is most of the job.</p>
+<section id="why-the-analysis-moved" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-analysis-moved">Why the analysis moved</h2>
+<p>The protocol had planned a <em>t</em>-test and Poisson regression. The observed data had neither the distribution nor the dispersion for it: excess zeros, because most patients have no emergency contact at all in a year, and overdispersion among those who do.</p>
+<p>So the primary analysis moved to a Bayesian zero-inflated negative binomial model with weakly-informative priors, fitted by MCMC in <code>brms</code>/Stan, reporting incidence rate ratios with credible intervals. Control patients were matched 1:2 on age, sex, and the number and type of chronic conditions.</p>
+<p>That is a deviation from the protocol, and the right way to handle a deviation is to document it and its rationale rather than to quietly perform it. It went into the evaluation report with the reasoning attached.</p>
+</section>
+<section id="why-the-result-was-probably-null" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-result-was-probably-null">Why the result was probably null</h2>
+<p>A null result is only useful if you are honest about which of the plausible explanations you cannot rule out. Four mattered here.</p>
+<p><strong>The design was not randomised.</strong> Practices opted in, and patients in participating practices differ from those who are not. Matching on age, sex and chronic-condition count narrows the gap; it does not close it.</p>
+<p><strong>Routine claims data capture severity poorly.</strong> Statutory health-insurance records are excellent at telling you that a contact happened and almost silent on how ill the person was. Much of what an advanced practice nurse might plausibly change is invisible in that data.</p>
+<p><strong>The baseline assumption was too high.</strong> Power was calculated against an expected 2.7 emergency contacts per person-year, a figure drawn from nursing-home literature. The population actually enrolled was not that population, and the real rate was lower — which makes a given absolute reduction much harder to detect.</p>
+<p><strong>COVID-19 was not modelled.</strong> The study ran across a period when patterns of ambulatory care contact changed for reasons that had nothing to do with the intervention.</p>
+</section>
+<section id="the-part-worth-keeping" class="level2">
+<h2 class="anchored" data-anchor-id="the-part-worth-keeping">The part worth keeping</h2>
+<p>The most useful sentence in a null trial report is usually the one that says which assumption was wrong, because that is the sentence the next study needs. Here it was the baseline event rate: an effect size justified from a literature about a different population.</p>
+<p>Reporting that plainly costs nothing except the pleasant story. It is also the only version of the result that anyone can build on.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -433,6 +480,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -750,7 +802,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Chung Shing Rex Ha</p>
+<p>© Chung Shing Rex Ha</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -758,14 +810,20 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/csrexha">
-      <i class="bi bi-github" role="img">
+    <a class="nav-link" href="mailto:hachungshingrex@gmail.com">
+      <i class="bi bi-envelope" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/hacsrex">
+    <a class="nav-link" href="https://www.linkedin.com/in/hacsrex/">
       <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml">
+      <i class="bi bi-rss" role="img">
 </i> 
     </a>
   </li>  

@@ -137,7 +137,11 @@ window.Quarto = {
 };
 </script>
 
-<link rel="alternate" type="application/rss+xml" title="Chung Shing Rex Ha" href="blog.xml" data-external="1"></head>
+<link rel="alternate" type="application/rss+xml" title="Chung Shing Rex Ha" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – Chung Shing Rex Ha">
+<meta property="og:site_name" content="Chung Shing Rex Ha">
+<meta name="twitter:title" content="Blog – Chung Shing Rex Ha">
+<meta name="twitter:card" content="summary">
+</head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
@@ -337,8 +341,13 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./de/index.html"> 
-<span class="menu-text">Deutsch</span></a>
+    <a class="nav-link" href="./de/index.qmd"> 
+<span class="menu-text">DE</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/csrexha" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -354,7 +363,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWV0YQ==">meta <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ymlvc3RhdGlzdGljcw==">biostatistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJpYWxz">trials <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -384,27 +393,29 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bWV0YQ==" data-listing-date-sort="1788048000000" data-listing-file-modified-sort="1788117723337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail"><a href="./posts/hello/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="Ymlvc3RhdGlzdGljcyUyQ3RyaWFscw==" data-listing-date-sort="1788048000000" data-listing-file-modified-sort="1788118741578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
+<div class="thumbnail"><a href="./posts/null-result/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/hello/index.html" class="no-external">Placeholder post</a>
+<a href="./posts/null-result/index.html" class="no-external">What a null result actually tells you</a>
 </h3>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('bWV0YQ=='); return false;">meta</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ymlvc3RhdGlzdGljcw=='); return false;">biostatistics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJpYWxz'); return false;">trials</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/hello/index.html" class="no-external">
-Placeholder — pipeline test.
+<div class="delink listing-description"><a href="./posts/null-result/index.html" class="no-external">
+<p>A trial I ran the analysis for found nothing. That is not the same as learning nothing.</p>
 </a></div>
 </div>
 <div class="metadata">
-<a href="./posts/hello/index.html" class="no-external">
+<a href="./posts/null-result/index.html" class="no-external">
 <div class="listing-date">
 Aug 30, 2026
 </div>
@@ -514,6 +525,11 @@ Aug 30, 2026
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -831,7 +847,7 @@ Aug 30, 2026
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Chung Shing Rex Ha</p>
+<p>© Chung Shing Rex Ha</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -839,14 +855,20 @@ Aug 30, 2026
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/csrexha">
-      <i class="bi bi-github" role="img">
+    <a class="nav-link" href="mailto:hachungshingrex@gmail.com">
+      <i class="bi bi-envelope" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/hacsrex">
+    <a class="nav-link" href="https://www.linkedin.com/in/hacsrex/">
       <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="./blog.xml">
+      <i class="bi bi-rss" role="img">
 </i> 
     </a>
   </li>  
