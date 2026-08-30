@@ -1,0 +1,14 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    toc: true
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+format-links: [typst]
+---
+
+Placeholder — pipeline test.
