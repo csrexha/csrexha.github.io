@@ -1,32 +1,29 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: ../_site/de
   render:
     - "index.qmd"
     - "cv.qmd"
     - "publications.qmd"
-    - "blog.qmd"
-    - "posts/"
 
 website:
   title: "Chung Shing Rex Ha"
-  description: "Biostatistician — clinical trials, health-services research, and applied Bayesian methods."
-  site-url: https://csrexha.github.io
+  description: "Biostatistiker — klinische Studien, Versorgungsforschung und angewandte bayesianische Methoden."
+  site-url: https://csrexha.github.io/de
   open-graph: true
-  twitter-card: true
   navbar:
     left:
       - href: index.qmd
-        text: About
+        text: Über mich
       - href: cv.qmd
-        text: CV
+        text: Lebenslauf
       - href: publications.qmd
-        text: Publications
-      - href: blog.qmd
-        text: Blog
+        text: Publikationen
+      - text: Blog
+        href: ../blog.html
     right:
-      - text: "DE"
-        href: de/index.qmd
+      - text: "EN"
+        href: ../index.html
       - icon: github
         href: https://github.com/csrexha
         target: _blank
@@ -37,15 +34,12 @@ website:
         href: mailto:hachungshingrex@gmail.com
       - icon: linkedin
         href: https://www.linkedin.com/in/hacsrex/
-      - icon: rss
-        href: blog.xml
 
 format:
   html:
     theme:
-      light: [cosmo, styles.scss]
-      dark: [darkly, styles.scss]
+      light: [cosmo, ../styles.scss]
+      dark: [darkly, ../styles.scss]
     toc: true
     smooth-scroll: true
     email-obfuscation: javascript
-    link-external-newwindow: true

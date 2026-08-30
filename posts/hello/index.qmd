@@ -1,7 +1,0 @@
----
-title: "Placeholder post"
-date: 2026-08-30
-categories: [meta]
----
-
-Placeholder — pipeline test.

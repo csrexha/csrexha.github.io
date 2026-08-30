@@ -1,6 +1,62 @@
 ---
 title: "Chung Shing Rex Ha"
 subtitle: "Biostatistician"
+page-layout: full
+toc: false
+about:
+  id: hero
+  template: trestles
+  image: assets/profile2.jpg
+  image-width: 16em
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: E-mail
+      href: mailto:hachungshingrex@gmail.com
+    - text: "ORCID"
+      href: https://orcid.org/0000-0001-5238-0963
+    - text: "Google Scholar"
+      href: https://scholar.google.de/citations?user=Pcv1bHEAAAAJ
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hacsrex/
+    - icon: github
+      text: GitHub
+      href: https://github.com/csrexha
 ---
 
-Placeholder — pipeline test.
+:::{#hero}
+
+I am a biostatistician based in Mainz, Germany. For six years I worked at the
+Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI),
+Universitätsmedizin Mainz, on oncology biostatistics and investigator-initiated
+clinical trials, alongside health-services research.
+
+My methodological focus is **applied Bayesian modelling and design** — Bayesian
+compartment modelling of MRI time-series, Bayesian additive regression trees on
+high-dimensional omics, precision-based sample-size determination, and a Bayesian
+zero-inflated negative binomial primary trial analysis.
+
+I am completing a PhD in the Faculty of Biology at Johannes Gutenberg University
+Mainz on omics-based biomarker discovery for familial pancreatic cancer using
+machine learning.
+
+:::
+
+## What I do
+
+**Clinical trial statistics.** Statistical analysis plans on the ICH E9(R1) estimand
+framework, sample-size and power calculations, primary-endpoint analysis, and the
+statistical sections of ethics-committee and funder submissions.
+
+**Machine learning on omics data.** Model-based gradient boosting with stability
+selection, Bayesian additive regression trees and Gaussian graphical models applied
+to high-dimensional proteomics and LC-MS metabolomics, with explainable-ML methods
+to make model behaviour interpretable to clinical collaborators.
+
+**Statistical consulting.** Six years advising doctoral candidates and research
+groups across more than fifteen clinical departments — translating clinical
+questions into designs, endpoints and analysis plans, and delivering
+publication-ready results.
+
+[Read the full CV](cv.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline-primary}

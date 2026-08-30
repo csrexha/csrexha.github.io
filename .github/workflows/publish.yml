@@ -19,9 +19,17 @@ jobs:
         with:
           version: 1.9.38
 
-      - name: Render and publish
+      - name: Render English site
+        run: quarto render
+
+      - name: Render German site
+        run: quarto render
+        working-directory: de
+
+      - name: Publish to gh-pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

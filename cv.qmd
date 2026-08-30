@@ -1,14 +1,146 @@
 ---
 title: "Curriculum Vitae"
+subtitle: "Chung Shing Rex Ha — Biostatistician"
 format:
   html:
     toc: true
+    toc-depth: 2
   typst:
     papersize: a4
     margin:
       x: 2cm
       y: 2cm
+    fontsize: 10pt
 format-links: [typst]
 ---
 
-Placeholder — pipeline test.
+Mainz, Germany · [hachungshingrex@gmail.com](mailto:hachungshingrex@gmail.com) ·
+[ORCID 0000-0001-5238-0963](https://orcid.org/0000-0001-5238-0963) ·
+[github.com/csrexha](https://github.com/csrexha)
+
+Permanent residence in Germany (*Niederlassungserlaubnis*) — unrestricted right to
+work, no employer sponsorship required.
+
+## Experience
+
+### Research Associate — IMBEI, Universitätsmedizin Mainz
+*Oct 2019 – Nov 2025 · Department of Genomic Statistics and Bioinformatics*
+
+- Study statistician for the quantitative evaluation of a 2,451-patient
+  non-randomised controlled trial — sole author of the statistical analysis plan;
+  performed all primary and secondary endpoint analyses.
+- Modelled recurrent healthcare-utilisation endpoints from routine
+  statutory-insurance data using zero-inflated negative binomial regression with
+  1:2 covariate matching, reporting incidence-rate ratios.
+- Co-authored the formal evaluation report to the German Federal Joint Committee
+  (G-BA Innovationsausschuss) for a publicly funded trial, owning the quantitative
+  evaluation.
+- Integrated electronic patient records from a regional physicians' association and
+  six statutory health insurers into analysis-ready datasets, with cross-source
+  quality control and conflict reconciliation, together with our data-management
+  team.
+- Developed a data management plan and data transfer specification with a
+  data-management specialist for external health-insurance data providers, plus a
+  data review plan comparing internal against each external source.
+- Built machine-learning pipelines and interactive dashboards for pancreatic-cancer
+  biomarker discovery on next-generation proteomics and LC-MS metabolomics.
+- Restructured a single-table retrospective dataset into normalised relational
+  tables suitable for analysis and publication.
+- Provided statistical consulting to medical doctoral candidates and research groups
+  across more than fifteen clinical departments.
+
+### Research Associate — Institute of Genetic Epidemiology, Helmholtz Zentrum München
+*Jun 2019 – Sep 2019*
+
+- Constructed detailed pedigrees for complex family structures to improve genomic
+  analysis of familial pancreatic cancer.
+
+### Research Assistant — Institute of Genetic Epidemiology, Helmholtz Zentrum München
+*Sep 2018 – May 2019*
+
+- Applied machine learning to metabolic differences between cancer patients and
+  healthy individuals for early detection.
+
+### Junior Market Analyst — Autoduck Industrial Ltd, Hong Kong
+*Aug 2013 – Oct 2014*
+
+- Monthly sales-activity summaries to evaluate marketing strategy; market-trend
+  analysis to identify prospective customers.
+
+## Education
+
+**PhD, Biology** — Johannes Gutenberg University Mainz · 2023 – present
+: *Omics-based Biomarker Discovery for Familial Pancreatic Cancer using Machine
+  Learning.* Write-up stage; submission targeted end 2026 / early 2027.
+
+**M.Sc. Biostatistics** — Ludwig Maximilian University of Munich · 2019
+: Thesis: *Bayesian Blind Estimation of the Arterial Input Function in Dynamic
+  Contrast-Enhanced MRI* (R, Stan).
+
+**B.Sc. Investment Science** — Hong Kong Polytechnic University · 2013
+
+**Higher Diploma in Financial Planning** — Hong Kong
+
+**DSH-2** — Ludwig Maximilian University of Munich · 2016
+: German language qualification for university admission.
+
+## Selected projects
+
+**FAMOUS — case-based care of multimorbid patients by advanced practice nurses.**
+Innovationsfonds / G-BA, FKZ 01NVF19012. Two-arm non-randomised multicentre
+interventional study, 2,451 patients. Sole author of an estimand-based statistical
+analysis plan (ICH E9(R1)) defining a primary and four secondary estimands; Bayesian
+zero-inflated negative binomial primary analysis in `brms`/Stan.
+
+**FaPaCa — German National Case Collection for Familial Pancreatic Cancer.**
+Data management and statistical analysis; machine-learning biomarker pipelines on
+next-generation proteomics and LC-MS metabolomics. Basis of the doctoral work.
+
+**IMPETUS — randomised controlled trial in elective colorectal surgery.**
+A priori power calculation, contribution to the ethics-committee submission, and the
+primary-endpoint analysis.
+
+## Methods
+
+- Survival analysis (Cox regression, Kaplan–Meier, log-rank), mixed models,
+  generalised estimating equations, bootstrap.
+- Bayesian modelling in R with Stan and `brms` — priors, MCMC diagnostics,
+  posterior summaries and credible intervals.
+- Sample-size and power calculations across clinical trials, observational studies
+  and animal-research applications, including Bayesian precision-based determination
+  and recurrent-event planning with intra-patient correlation and cluster effects.
+- Model-based gradient boosting, stability selection, Bayesian additive regression
+  trees and Gaussian graphical models on high-dimensional omics data.
+- Explainable ML — SHAP, LIME, partial dependence plots, stability selection.
+- Propensity and covariate matching (`MatchIt`).
+
+## Programming and tools
+
+R (Shiny, pharmaverse) · Stan · Python · PostgreSQL · bash · Git · Docker ·
+Snakemake · Linux
+
+Familiar with CDISC concepts (SDTM, ADaM); building hands-on ADaM practice with the
+R pharmaverse.
+
+## Teaching and supervision
+
+- Taught regression analysis in the cross-disciplinary Q1 module for medical
+  students, IMBEI · 2020–2024.
+- Ran hypothesis-testing workshops for doctoral researchers at the Center for
+  Thrombosis and Hemostasis, Universitätsmedizin Mainz · 2023–2024.
+- Supervised bachelor's and master's students and research assistants;
+  co-supervised a bachelor thesis.
+
+## Award
+
+**1st place, 2nd curATime Hackathon "curAHack"** — Gutenberg Digital Hub Mainz,
+2025. Multiclass classification of anti-CRISPR proteins.
+
+## Languages
+
+German (DSH-2, six years professional use) · English (fluent, negotiation level) ·
+Cantonese (native) · Mandarin (good working knowledge)
+
+## Publications
+
+See the [publications page](publications.qmd).

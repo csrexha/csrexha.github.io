@@ -1,6 +1,63 @@
 ---
 title: "Chung Shing Rex Ha"
 subtitle: "Biostatistiker"
+page-layout: full
+toc: false
+about:
+  id: hero
+  template: trestles
+  image: ../assets/profile2.jpg
+  image-width: 16em
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: E-Mail
+      href: mailto:hachungshingrex@gmail.com
+    - text: "ORCID"
+      href: https://orcid.org/0000-0001-5238-0963
+    - text: "Google Scholar"
+      href: https://scholar.google.de/citations?user=Pcv1bHEAAAAJ
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hacsrex/
+    - icon: github
+      text: GitHub
+      href: https://github.com/csrexha
 ---
 
-Platzhalter — Pipeline-Test.
+:::{#hero}
+
+Ich bin Biostatistiker und lebe in Mainz. Sechs Jahre lang war ich am Institut für
+Medizinische Biometrie, Epidemiologie und Informatik (IMBEI) der Universitätsmedizin
+Mainz tätig — in der Onkologie-Biostatistik, in investigator-initiierten klinischen
+Studien sowie in der Versorgungsforschung.
+
+Mein methodischer Schwerpunkt ist die **angewandte bayesianische Modellierung und
+Studienplanung**: bayesianische Kompartimentmodellierung von MRT-Zeitreihen, Bayesian
+Additive Regression Trees auf hochdimensionalen Omics-Daten, präzisionsbasierte
+Fallzahlplanung sowie eine bayesianische ZINB-Primäranalyse.
+
+Derzeit schließe ich meine Promotion am Fachbereich Biologie der Johannes
+Gutenberg-Universität Mainz ab, zum Thema Omics-basierte Biomarker-Entdeckung beim
+familiären Pankreaskarzinom mittels maschinellen Lernens.
+
+:::
+
+## Schwerpunkte
+
+**Statistik klinischer Studien.** Estimand-basierte statistische Analysepläne
+(ICH E9(R1)), Fallzahl- und Powerberechnungen, Auswertung primärer Endpunkte sowie
+die statistischen Abschnitte von Ethik- und Förderanträgen.
+
+**Maschinelles Lernen auf Omics-Daten.** Model-based Gradient Boosting, Stability
+Selection, Bayesian Additive Regression Trees und Gaußsche graphische Modelle für
+hochdimensionale Proteomics- und LC-MS-Metabolomics-Daten, ergänzt um
+Explainable-ML-Methoden zur Vermittlung des Modellverhaltens an klinische
+Kooperationspartner.
+
+**Statistische Beratung.** Sechs Jahre Beratung von Doktorand:innen und
+Forschungsgruppen aus über fünfzehn klinischen Fachbereichen — Übersetzung klinischer
+Fragestellungen in Studiendesigns, Endpunkte und Analysepläne bis zu
+publikationsreifen Ergebnissen.
+
+[Lebenslauf](cv.qmd){.btn .btn-primary} [Publikationen](publications.qmd){.btn .btn-outline-primary}

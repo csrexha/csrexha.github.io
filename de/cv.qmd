@@ -1,0 +1,149 @@
+---
+title: "Lebenslauf"
+subtitle: "Chung Shing Rex Ha — Biostatistiker"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    fontsize: 10pt
+format-links: [typst]
+---
+
+Mainz, Deutschland · [hachungshingrex@gmail.com](mailto:hachungshingrex@gmail.com) ·
+[ORCID 0000-0001-5238-0963](https://orcid.org/0000-0001-5238-0963) ·
+[github.com/csrexha](https://github.com/csrexha)
+
+Niederlassungserlaubnis (unbefristet) — uneingeschränkte Arbeitserlaubnis, keine
+Genehmigung durch den Arbeitgeber erforderlich.
+
+## Berufserfahrung
+
+### Wissenschaftlicher Mitarbeiter — IMBEI, Universitätsmedizin Mainz
+*Okt. 2019 – Nov. 2025 · Abteilung für Genomische Statistik und Bioinformatik*
+
+- Studienstatistiker für die quantitative Evaluation einer nicht-randomisierten
+  kontrollierten Studie mit 2.451 Patient:innen — alleiniger Autor des statistischen
+  Analyseplans; Durchführung aller primären und sekundären Endpunktanalysen.
+- Modellierung rekurrenter Versorgungsendpunkte aus GKV-Routinedaten mittels
+  Zero-Inflated-Negative-Binomial-Regression mit 1:2-Matching; Berichterstattung als
+  Inzidenzratenverhältnisse.
+- Mitautor des Evaluationsberichts an den Innovationsausschuss des G-BA für eine
+  öffentlich geförderte Studie; verantwortlich für die quantitative Evaluation.
+- Integration elektronischer Patientendaten einer Kassenärztlichen Vereinigung und
+  sechs gesetzlicher Krankenkassen in analysefertige Datensätze, mit
+  quellenübergreifender Qualitätskontrolle und Konfliktauflösung — gemeinsam mit
+  unserem Datenmanagement-Team.
+- Entwicklung eines Datenmanagementplans und einer Datentransferspezifikation
+  gemeinsam mit einer Datenmanagement-Spezialistin für externe Krankenkassen sowie
+  eines Datenprüfplans zum Abgleich interner und externer Quellen.
+- Aufbau von Machine-Learning-Pipelines und interaktiven Dashboards zur
+  Biomarker-Entdeckung beim Pankreaskarzinom auf Basis von Next-Generation-Proteomics
+  und LC-MS-Metabolomics.
+- Überführung eines retrospektiven Einzeltabellen-Datensatzes in normalisierte
+  relationale Tabellen für Auswertung und Publikation.
+- Statistische Beratung für Doktorand:innen und Forschungsgruppen aus über fünfzehn
+  klinischen Fachbereichen.
+
+### Wissenschaftlicher Mitarbeiter — Institut für Genetische Epidemiologie, Helmholtz Zentrum München
+*Juni 2019 – Sep. 2019*
+
+- Erstellung detaillierter Stammbäume für komplexe Familienstrukturen zur
+  Verbesserung der genomischen Analyse des familiären Pankreaskarzinoms.
+
+### Wissenschaftliche Hilfskraft — Institut für Genetische Epidemiologie, Helmholtz Zentrum München
+*Sep. 2018 – Mai 2019*
+
+- Anwendung maschinellen Lernens auf metabolische Unterschiede zwischen
+  Krebspatient:innen und gesunden Personen zur Früherkennung.
+
+### Junior Market Analyst — Autoduck Industrial Ltd, Hongkong
+*Aug. 2013 – Okt. 2014*
+
+- Monatliche Auswertungen der Vertriebsaktivitäten zur Bewertung der
+  Marketingstrategie; Marktanalysen zur Identifikation potenzieller Kunden.
+
+## Ausbildung
+
+**Promotion, Biologie** — Johannes Gutenberg-Universität Mainz · seit 2023
+: *Omics-based Biomarker Discovery for Familial Pancreatic Cancer using Machine
+  Learning.* In der Schreibphase; Einreichung angestrebt für Ende 2026 / Anfang 2027.
+
+**M.Sc. Biostatistik** — Ludwig-Maximilians-Universität München · 2019
+: Masterarbeit: *Bayesian Blind Estimation of the Arterial Input Function in Dynamic
+  Contrast-Enhanced MRI* (R, Stan).
+
+**B.Sc. Investment Science** — Hong Kong Polytechnic University · 2013
+
+**Higher Diploma in Financial Planning** — Hongkong
+
+**DSH-2** — Ludwig-Maximilians-Universität München · 2016
+
+## Ausgewählte Projekte
+
+**FAMOUS — fallbezogene Versorgung multimorbider Patient:innen durch Advanced
+Practice Nurses.** Innovationsfonds / G-BA, FKZ 01NVF19012. Zweiarmige,
+nicht-randomisierte, multizentrische interventionelle Studie mit 2.451
+Patient:innen. Alleiniger Autor eines estimand-basierten statistischen Analyseplans
+(ICH E9(R1)) mit einem primären und vier sekundären Estimands; bayesianische
+ZINB-Primäranalyse in `brms`/Stan.
+
+**FaPaCa — Nationales Fallregister für familiäres Pankreaskarzinom.**
+Datenmanagement und statistische Auswertung; Machine-Learning-Pipelines zur
+Biomarker-Entdeckung auf Proteomics- und LC-MS-Metabolomics-Daten. Grundlage der
+Promotion.
+
+**IMPETUS — randomisierte kontrollierte Studie in der elektiven kolorektalen
+Chirurgie.** A-priori-Fallzahlplanung, Mitwirkung am Ethikantrag sowie Auswertung
+des primären Endpunkts.
+
+## Methoden
+
+- Überlebenszeitanalyse (Cox-Regression, Kaplan-Meier, Log-Rank-Test), gemischte
+  Modelle, verallgemeinerte Schätzgleichungen (GEE), Bootstrap.
+- Bayesianische Modellierung in R mit Stan und `brms` — Priorwahl, MCMC-Diagnostik,
+  Posterior-Zusammenfassungen und Kredibilitätsintervalle.
+- Fallzahl- und Powerberechnungen für klinische Studien, Beobachtungsstudien und
+  Tierversuchsanträge, einschließlich bayesianischer, präzisionsbasierter
+  Fallzahlplanung sowie Planung für rekurrente Ereignisse unter Berücksichtigung von
+  Intra-Patienten-Korrelation und Cluster-Effekten.
+- Model-based Gradient Boosting, Stability Selection, Bayesian Additive Regression
+  Trees und Gaußsche graphische Modelle für hochdimensionale Omics-Daten.
+- Explainable-ML-Methoden — SHAP, LIME, Partial Dependence Plots, Stability
+  Selection.
+- Propensity- und Kovariaten-Matching (`MatchIt`).
+
+## Programmierung und Werkzeuge
+
+R (Shiny, pharmaverse) · Stan · Python · PostgreSQL · bash · Git · Docker ·
+Snakemake · Linux
+
+Vertraut mit CDISC-Konzepten (SDTM, ADaM); Aufbau praktischer ADaM-Erfahrung mit dem
+R-pharmaverse.
+
+## Lehre und Betreuung
+
+- Lehrbeauftragter für Regressionsanalyse im fächerübergreifenden Modul Q1 für
+  Medizinstudierende, IMBEI · 2020–2024.
+- Statistik-Workshops zu Hypothesentests für Doktorierende am Zentrum für Thrombose
+  und Hämostase, Universitätsmedizin Mainz · 2023–2024.
+- Betreuung von Bachelor- und Masterstudierenden sowie wissenschaftlichen
+  Hilfskräften; Mitbetreuung einer Bachelorarbeit.
+
+## Auszeichnung
+
+**1. Platz, 2. curATime Hackathon „curAHack"** — Gutenberg Digital Hub Mainz, 2025.
+Multiclass-Klassifikation von Anti-CRISPR-Proteinen.
+
+## Sprachen
+
+Deutsch (DSH-2, sechs Jahre berufliche Praxis) · Englisch (verhandlungssicher) ·
+Kantonesisch (Muttersprache) · Mandarin (gute Kenntnisse)
+
+## Publikationen
+
+Siehe die [Publikationsseite](publications.qmd).

@@ -1,12 +1,12 @@
 ---
-title: "Publications"
+title: "Publikationen"
 toc: true
 ---
 
-Author position and my actual contribution are stated for each entry.
+Zu jedem Eintrag sind die Autorenposition und mein tatsächlicher Beitrag angegeben.
 ORCID: [0000-0001-5238-0963](https://orcid.org/0000-0001-5238-0963).
 
-## Peer-reviewed articles
+## Begutachtete Zeitschriftenartikel
 
 **Zimniak L, Soufiah E, [Ha CSR]{.underline}, Gretschel S, Paschold M.**
 Improvement of mobility and motivation in patients with elective colorectal
@@ -15,9 +15,9 @@ randomized controlled trial in a traditional non-ERAS clinical setting.
 *BMC Surgery* 2026;26(1).
 [doi:10.1186/s12893-026-03864-6](https://doi.org/10.1186/s12893-026-03864-6)
 
-: Third of five authors. As external consulting statistician I performed the a
-  priori power calculation, contributed to the ethics-committee submission, and ran
-  the primary-endpoint analysis in R.
+: Dritter von fünf Autoren. Als externer beratender Statistiker führte ich die
+  A-priori-Fallzahlplanung durch, wirkte am Ethikantrag mit und wertete den primären
+  Endpunkt in R aus.
 
 **Gruebl T, Jungblut J, Rupp D, [Ha CSR]{.underline}, et al.**
 The use of epinephrine in out-of-hospital cardiac arrest: a retrospective study of
@@ -26,9 +26,9 @@ physician-staffed emergency medical service system.
 *BMC Emergency Medicine* 2025;25(1):182.
 [doi:10.1186/s12873-025-01351-4](https://doi.org/10.1186/s12873-025-01351-4)
 
-: Co-author. I restructured a single-table retrospective dataset into normalised
-  relational tables, ran the statistical analysis, and contributed to the
-  publication.
+: Koautor. Überführung eines retrospektiven Einzeltabellen-Datensatzes in
+  normalisierte relationale Tabellen, statistische Auswertung und Mitwirkung an der
+  Publikation.
 
 **Swojanowsky P, Bundis-Dimitrijevic M, [Ha CSR]{.underline}, von Korn H.**
 Rationale and design of the VAST-AF trial: a randomized controlled, blinded,
@@ -37,8 +37,8 @@ of persistent atrial fibrillation recurrence.
 *American Heart Journal* 2024;268:37–44.
 [doi:10.1016/j.ahj.2023.11.015](https://doi.org/10.1016/j.ahj.2023.11.015)
 
-: Third of four authors. Statistical consulting on a randomised, controlled,
-  double-blind trial in cardiology.
+: Dritter von vier Autoren. Statistische Beratung zu einer randomisierten,
+  kontrollierten, doppelblinden Studie in der Kardiologie.
 
 **[Ha CSR]{.underline}, Müller-Nurasyid M, Petrera A, Hauck SM, Marini F,
 Bartsch DK, Slater EP, Strauch K.**
@@ -47,39 +47,40 @@ cancer using statistical learning.
 *PLOS ONE* 2023;18(1):e0280399.
 [doi:10.1371/journal.pone.0280399](https://doi.org/10.1371/journal.pone.0280399)
 
-: First author. An end-to-end machine-learning pipeline identifying early-detection
-  biomarkers from next-generation proteomics in a pancreatic-cancer cohort, using
-  model-based gradient boosting with stability selection for a high-dimensional,
-  imbalanced design, validated with a dedicated simulation study.
+: Erstautor. End-to-End-Machine-Learning-Pipeline zur Identifikation von
+  Früherkennungsbiomarkern aus Next-Generation-Proteomics in einer
+  Pankreaskarzinom-Kohorte; Model-based Gradient Boosting mit Stability Selection für
+  ein hochdimensionales, unbalanciertes Design, validiert durch eine Simulationsstudie.
 
-## Manuscripts under review
+## Manuskripte in Begutachtung
 
 **[Ha CSR]{.underline}, et al.**
 A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic
-Biomarkers through Machine Learning. *Under review, 2026.*
+Biomarkers through Machine Learning. *In Begutachtung, 2026.*
 
-: First author. Machine learning on LC-MS metabolomics for early detection, with a
-  molecular interaction network constructed using Gaussian graphical models to
-  reveal key interactions among compounds in high-risk individuals.
+: Erstautor. Maschinelles Lernen auf LC-MS-Metabolomics-Daten zur Früherkennung sowie
+  Konstruktion eines metabolomischen Interaktionsnetzwerks mittels Gaußscher
+  graphischer Modelle zur Aufdeckung zentraler Wechselwirkungen bei Hochrisikopersonen.
 
 **Büchler B, Büttner M, Gianicolo E, [Ha CSR]{.underline}.**
 Effects of care of multimorbid patients in general practices by advanced practice
 nurses. Results of a nonrandomized controlled trial.
-*Submitted to BMC Health Services Research.*
+*Eingereicht bei BMC Health Services Research.*
 
-: Co-author and lead study statistician for the quantitative evaluation. I authored
-  the statistical analysis plan and ran all endpoint analyses.
+: Koautor und leitender Studienstatistiker für die quantitative Evaluation.
+  Alleiniger Autor des statistischen Analyseplans; Durchführung aller
+  Endpunktanalysen.
 
 **Herold S, Tilch M-K, Simon L, Kinkel B, Schranz M, Theobald M,
 [Ha CSR]{.underline}, Singer S, Hess G.**
 Information deficits and satisfaction with education process in patients with
 malignant lymphoma: correlation of objective and subjective informedness.
-*Under review at The Oncologist, submitted July 2026.*
+*In Begutachtung bei The Oncologist, eingereicht im Juli 2026.*
 
-: Co-author and statistician — a study I supported from design and sample size
-  through analysis to submission.
+: Koautor und Statistiker — von Konzeption und Fallzahlplanung über die Auswertung
+  bis zur Einreichung begleitet.
 
-## Conference contributions
+## Konferenzbeiträge
 
 **Herold S, et al.** Information deficits and satisfaction with education process in
-patients with malignant lymphoma. *DGHO Annual Meeting 2025* (abstract). Co-author.
+patients with malignant lymphoma. *Jahrestagung der DGHO 2025* (Abstract). Koautor.

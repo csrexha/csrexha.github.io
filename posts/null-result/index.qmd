@@ -1,0 +1,70 @@
+---
+title: "What a null result actually tells you"
+description: "A trial I ran the analysis for found nothing. That is not the same as learning nothing."
+date: 2026-08-30
+categories: [biostatistics, trials]
+---
+
+The FAMOUS trial asked whether case-based care of multimorbid patients by advanced
+practice nurses, working inside general practices, would reduce ambulatory emergency
+contacts over twelve months. It was a two-arm, non-randomised, multicentre
+interventional study, funded by the German Innovationsfonds, with 2,451 patients
+enrolled — well above the recruitment target.
+
+The answer was no. Neither the primary endpoint nor any secondary endpoint showed a
+reduction against routine care.
+
+I was the study statistician for the quantitative evaluation: I wrote the
+statistical analysis plan and ran every endpoint analysis. So this is the result I
+had to write up, and the temptation in that position is real. There is always a
+subgroup that looks better, always a sensitivity analysis that could be promoted to
+the headline. Resisting that is most of the job.
+
+## Why the analysis moved
+
+The protocol had planned a *t*-test and Poisson regression. The observed data had
+neither the distribution nor the dispersion for it: excess zeros, because most
+patients have no emergency contact at all in a year, and overdispersion among those
+who do.
+
+So the primary analysis moved to a Bayesian zero-inflated negative binomial model
+with weakly-informative priors, fitted by MCMC in `brms`/Stan, reporting incidence
+rate ratios with credible intervals. Control patients were matched 1:2 on age, sex,
+and the number and type of chronic conditions.
+
+That is a deviation from the protocol, and the right way to handle a deviation is to
+document it and its rationale rather than to quietly perform it. It went into the
+evaluation report with the reasoning attached.
+
+## Why the result was probably null
+
+A null result is only useful if you are honest about which of the plausible
+explanations you cannot rule out. Four mattered here.
+
+**The design was not randomised.** Practices opted in, and patients in participating
+practices differ from those who are not. Matching on age, sex and chronic-condition
+count narrows the gap; it does not close it.
+
+**Routine claims data capture severity poorly.** Statutory health-insurance records
+are excellent at telling you that a contact happened and almost silent on how ill
+the person was. Much of what an advanced practice nurse might plausibly change is
+invisible in that data.
+
+**The baseline assumption was too high.** Power was calculated against an expected
+2.7 emergency contacts per person-year, a figure drawn from nursing-home literature.
+The population actually enrolled was not that population, and the real rate was
+lower — which makes a given absolute reduction much harder to detect.
+
+**COVID-19 was not modelled.** The study ran across a period when patterns of
+ambulatory care contact changed for reasons that had nothing to do with the
+intervention.
+
+## The part worth keeping
+
+The most useful sentence in a null trial report is usually the one that says which
+assumption was wrong, because that is the sentence the next study needs. Here it was
+the baseline event rate: an effect size justified from a literature about a
+different population.
+
+Reporting that plainly costs nothing except the pleasant story. It is also the only
+version of the result that anyone can build on.
