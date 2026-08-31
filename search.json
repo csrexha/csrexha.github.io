@@ -1,73 +1,10 @@
 [
   {
-    "objectID": "posts/null-result/index.html",
-    "href": "posts/null-result/index.html",
-    "title": "What a null result actually tells you",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "The FAMOUS trial asked whether case-based care of multimorbid patients by advanced practice nurses, working inside general practices, would reduce ambulatory emergency contacts over twelve months. It was a two-arm, non-randomised, multicentre interventional study, funded by the German Innovationsfonds, with 2,451 patients enrolled — well above the recruitment target.\nThe answer was no. Neither the primary endpoint nor any secondary endpoint showed a reduction against routine care.\nI was the study statistician for the quantitative evaluation: I wrote the statistical analysis plan and ran every endpoint analysis. So this is the result I had to write up, and the temptation in that position is real. There is always a subgroup that looks better, always a sensitivity analysis that could be promoted to the headline. Resisting that is most of the job."
-  },
-  {
-    "objectID": "posts/null-result/index.html#why-the-analysis-moved",
-    "href": "posts/null-result/index.html#why-the-analysis-moved",
-    "title": "What a null result actually tells you",
-    "section": "Why the analysis moved",
-    "text": "Why the analysis moved\nThe protocol had planned a t-test and Poisson regression. The observed data had neither the distribution nor the dispersion for it: excess zeros, because most patients have no emergency contact at all in a year, and overdispersion among those who do.\nSo the primary analysis moved to a Bayesian zero-inflated negative binomial model with weakly-informative priors, fitted by MCMC in brms/Stan, reporting incidence rate ratios with credible intervals. Control patients were matched 1:2 on age, sex, and the number and type of chronic conditions.\nThat is a deviation from the protocol, and the right way to handle a deviation is to document it and its rationale rather than to quietly perform it. It went into the evaluation report with the reasoning attached."
-  },
-  {
-    "objectID": "posts/null-result/index.html#why-the-result-was-probably-null",
-    "href": "posts/null-result/index.html#why-the-result-was-probably-null",
-    "title": "What a null result actually tells you",
-    "section": "Why the result was probably null",
-    "text": "Why the result was probably null\nA null result is only useful if you are honest about which of the plausible explanations you cannot rule out. Four mattered here.\nThe design was not randomised. Practices opted in, and patients in participating practices differ from those who are not. Matching on age, sex and chronic-condition count narrows the gap; it does not close it.\nRoutine claims data capture severity poorly. Statutory health-insurance records are excellent at telling you that a contact happened and almost silent on how ill the person was. Much of what an advanced practice nurse might plausibly change is invisible in that data.\nThe baseline assumption was too high. Power was calculated against an expected 2.7 emergency contacts per person-year, a figure drawn from nursing-home literature. The population actually enrolled was not that population, and the real rate was lower — which makes a given absolute reduction much harder to detect.\nCOVID-19 was not modelled. The study ran across a period when patterns of ambulatory care contact changed for reasons that had nothing to do with the intervention."
-  },
-  {
-    "objectID": "posts/null-result/index.html#the-part-worth-keeping",
-    "href": "posts/null-result/index.html#the-part-worth-keeping",
-    "title": "What a null result actually tells you",
-    "section": "The part worth keeping",
-    "text": "The part worth keeping\nThe most useful sentence in a null trial report is usually the one that says which assumption was wrong, because that is the sentence the next study needs. Here it was the baseline event rate: an effect size justified from a literature about a different population.\nReporting that plainly costs nothing except the pleasant story. It is also the only version of the result that anyone can build on."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Author position and my actual contribution are stated for each entry. ORCID: 0000-0001-5238-0963."
-  },
-  {
-    "objectID": "publications.html#peer-reviewed-articles",
-    "href": "publications.html#peer-reviewed-articles",
-    "title": "Publications",
-    "section": "Peer-reviewed articles",
-    "text": "Peer-reviewed articles\nZimniak L, Soufiah E, Ha CSR, Gretschel S, Paschold M. Improvement of mobility and motivation in patients with elective colorectal resection using tracking devices and utilizing self-awareness (IMPETUS): a randomized controlled trial in a traditional non-ERAS clinical setting. BMC Surgery 2026;26(1). doi:10.1186/s12893-026-03864-6\n: Third of five authors. As external consulting statistician I performed the a priori power calculation, contributed to the ethics-committee submission, and ran the primary-endpoint analysis in R.\nGruebl T, Jungblut J, Rupp D, Ha CSR, et al. The use of epinephrine in out-of-hospital cardiac arrest: a retrospective study of the effects of administration timing and cumulative doses on outcome in a physician-staffed emergency medical service system. BMC Emergency Medicine 2025;25(1):182. doi:10.1186/s12873-025-01351-4\n: Co-author. I restructured a single-table retrospective dataset into normalised relational tables, ran the statistical analysis, and contributed to the publication.\nSwojanowsky P, Bundis-Dimitrijevic M, Ha CSR, von Korn H. Rationale and design of the VAST-AF trial: a randomized controlled, blinded, clinical trial to evaluate transcutaneous vagal nerve stimulation for the prevention of persistent atrial fibrillation recurrence. American Heart Journal 2024;268:37–44. doi:10.1016/j.ahj.2023.11.015\n: Third of four authors. Statistical consulting on a randomised, controlled, double-blind trial in cardiology.\nHa CSR, Müller-Nurasyid M, Petrera A, Hauck SM, Marini F, Bartsch DK, Slater EP, Strauch K. Proteomics biomarker discovery for individualized prevention of familial pancreatic cancer using statistical learning. PLOS ONE 2023;18(1):e0280399. doi:10.1371/journal.pone.0280399\n: First author. An end-to-end machine-learning pipeline identifying early-detection biomarkers from next-generation proteomics in a pancreatic-cancer cohort, using model-based gradient boosting with stability selection for a high-dimensional, imbalanced design, validated with a dedicated simulation study."
-  },
-  {
-    "objectID": "publications.html#manuscripts-under-review",
-    "href": "publications.html#manuscripts-under-review",
-    "title": "Publications",
-    "section": "Manuscripts under review",
-    "text": "Manuscripts under review\nHa CSR, et al. A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic Biomarkers through Machine Learning. Under review, 2026.\n: First author. Machine learning on LC-MS metabolomics for early detection, with a molecular interaction network constructed using Gaussian graphical models to reveal key interactions among compounds in high-risk individuals.\nBüchler B, Büttner M, Gianicolo E, Ha CSR. Effects of care of multimorbid patients in general practices by advanced practice nurses. Results of a nonrandomized controlled trial. Submitted to BMC Health Services Research.\n: Co-author and lead study statistician for the quantitative evaluation. I authored the statistical analysis plan and ran all endpoint analyses.\nHerold S, Tilch M-K, Simon L, Kinkel B, Schranz M, Theobald M, Ha CSR, Singer S, Hess G. Information deficits and satisfaction with education process in patients with malignant lymphoma: correlation of objective and subjective informedness. Under review at The Oncologist, submitted July 2026.\n: Co-author and statistician — a study I supported from design and sample size through analysis to submission."
-  },
-  {
-    "objectID": "publications.html#conference-contributions",
-    "href": "publications.html#conference-contributions",
-    "title": "Publications",
-    "section": "Conference contributions",
-    "text": "Conference contributions\nHerold S, et al. Information deficits and satisfaction with education process in patients with malignant lymphoma. DGHO Annual Meeting 2025 (abstract). Co-author."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Chung Shing Rex Ha",
-    "section": "",
-    "text": "E-mail\n  \n  \n     ORCID\n  \n  \n     Google Scholar\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \nI am a biostatistician based in Mainz, Germany. For six years I worked at the Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI), Universitätsmedizin Mainz, on oncology biostatistics and investigator-initiated clinical trials, alongside health-services research.\nMy methodological focus is applied Bayesian modelling and design — Bayesian compartment modelling of MRI time-series, Bayesian additive regression trees on high-dimensional omics, precision-based sample-size determination, and a Bayesian zero-inflated negative binomial primary trial analysis.\nI am completing a PhD in the Faculty of Biology at Johannes Gutenberg University Mainz on omics-based biomarker discovery for familial pancreatic cancer using machine learning."
-  },
-  {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "Chung Shing Rex Ha",
-    "section": "What I do",
-    "text": "What I do\nClinical trial statistics. Statistical analysis plans on the ICH E9(R1) estimand framework, sample-size and power calculations, primary-endpoint analysis, and the statistical sections of ethics-committee and funder submissions.\nMachine learning on omics data. Model-based gradient boosting with stability selection, Bayesian additive regression trees and Gaussian graphical models applied to high-dimensional proteomics and LC-MS metabolomics, with explainable-ML methods to make model behaviour interpretable to clinical collaborators.\nStatistical consulting. Six years advising doctoral candidates and research groups across more than fifteen clinical departments — translating clinical questions into designs, endpoints and analysis plans, and delivering publication-ready results.\nRead the full CV Publications"
+    "text": "No matching items"
   },
   {
     "objectID": "cv.html",
@@ -140,10 +77,45 @@
     "text": "Publications\nSee the publications page."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chung Shing Rex Ha",
     "section": "",
-    "text": "What a null result actually tells you\n\n\n\nbiostatistics\n\ntrials\n\n\n\nA trial I ran the analysis for found nothing. That is not the same as learning nothing.\n\n\n\n\n\nAug 30, 2026\n\n\n\n\n\nNo matching items"
+    "text": "E-mail\n  \n  \n     ORCID\n  \n  \n     Google Scholar\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \nI am a biostatistician based in Mainz, Germany. For six years I worked at the Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI), Universitätsmedizin Mainz, on oncology biostatistics and investigator-initiated clinical trials, alongside health-services research.\nMy methodological focus is applied Bayesian modelling and design — Bayesian compartment modelling of MRI time-series, Bayesian additive regression trees on high-dimensional omics, precision-based sample-size determination, and a Bayesian zero-inflated negative binomial primary trial analysis.\nI am completing a PhD in the Faculty of Biology at Johannes Gutenberg University Mainz on omics-based biomarker discovery for familial pancreatic cancer using machine learning."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Chung Shing Rex Ha",
+    "section": "What I do",
+    "text": "What I do\nClinical trial statistics. Statistical analysis plans on the ICH E9(R1) estimand framework, sample-size and power calculations, primary-endpoint analysis, and the statistical sections of ethics-committee and funder submissions.\nMachine learning on omics data. Model-based gradient boosting with stability selection, Bayesian additive regression trees and Gaussian graphical models applied to high-dimensional proteomics and LC-MS metabolomics, with explainable-ML methods to make model behaviour interpretable to clinical collaborators.\nStatistical consulting. Six years advising doctoral candidates and research groups across more than fifteen clinical departments — translating clinical questions into designs, endpoints and analysis plans, and delivering publication-ready results.\nRead the full CV Publications"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Author position and my actual contribution are stated for each entry. ORCID: 0000-0001-5238-0963."
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-articles",
+    "href": "publications.html#peer-reviewed-articles",
+    "title": "Publications",
+    "section": "Peer-reviewed articles",
+    "text": "Peer-reviewed articles\nZimniak L, Soufiah E, Ha CSR, Gretschel S, Paschold M. Improvement of mobility and motivation in patients with elective colorectal resection using tracking devices and utilizing self-awareness (IMPETUS): a randomized controlled trial in a traditional non-ERAS clinical setting. BMC Surgery 2026;26(1). doi:10.1186/s12893-026-03864-6\n: Third of five authors. As external consulting statistician I performed the a priori power calculation, contributed to the ethics-committee submission, and ran the primary-endpoint analysis in R.\nGruebl T, Jungblut J, Rupp D, Ha CSR, et al. The use of epinephrine in out-of-hospital cardiac arrest: a retrospective study of the effects of administration timing and cumulative doses on outcome in a physician-staffed emergency medical service system. BMC Emergency Medicine 2025;25(1):182. doi:10.1186/s12873-025-01351-4\n: Co-author. I restructured a single-table retrospective dataset into normalised relational tables, ran the statistical analysis, and contributed to the publication.\nSwojanowsky P, Bundis-Dimitrijevic M, Ha CSR, von Korn H. Rationale and design of the VAST-AF trial: a randomized controlled, blinded, clinical trial to evaluate transcutaneous vagal nerve stimulation for the prevention of persistent atrial fibrillation recurrence. American Heart Journal 2024;268:37–44. doi:10.1016/j.ahj.2023.11.015\n: Third of four authors. Statistical consulting on a randomised, controlled, double-blind trial in cardiology.\nHa CSR, Müller-Nurasyid M, Petrera A, Hauck SM, Marini F, Bartsch DK, Slater EP, Strauch K. Proteomics biomarker discovery for individualized prevention of familial pancreatic cancer using statistical learning. PLOS ONE 2023;18(1):e0280399. doi:10.1371/journal.pone.0280399\n: First author. An end-to-end machine-learning pipeline identifying early-detection biomarkers from next-generation proteomics in a pancreatic-cancer cohort, using model-based gradient boosting with stability selection for a high-dimensional, imbalanced design, validated with a dedicated simulation study."
+  },
+  {
+    "objectID": "publications.html#manuscripts-under-review",
+    "href": "publications.html#manuscripts-under-review",
+    "title": "Publications",
+    "section": "Manuscripts under review",
+    "text": "Manuscripts under review\nHa CSR, et al. A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic Biomarkers through Machine Learning. Under review, 2026.\n: First author. Machine learning on LC-MS metabolomics for early detection, with a molecular interaction network constructed using Gaussian graphical models to reveal key interactions among compounds in high-risk individuals.\nBüchler B, Büttner M, Gianicolo E, Ha CSR. Effects of care of multimorbid patients in general practices by advanced practice nurses. Results of a nonrandomized controlled trial. Submitted to BMC Health Services Research.\n: Co-author and lead study statistician for the quantitative evaluation. I authored the statistical analysis plan and ran all endpoint analyses.\nHerold S, Tilch M-K, Simon L, Kinkel B, Schranz M, Theobald M, Ha CSR, Singer S, Hess G. Information deficits and satisfaction with education process in patients with malignant lymphoma: correlation of objective and subjective informedness. Under review at The Oncologist, submitted July 2026.\n: Co-author and statistician — a study I supported from design and sample size through analysis to submission."
+  },
+  {
+    "objectID": "publications.html#conference-contributions",
+    "href": "publications.html#conference-contributions",
+    "title": "Publications",
+    "section": "Conference contributions",
+    "text": "Conference contributions\nHerold S, et al. Information deficits and satisfaction with education process in patients with malignant lymphoma. DGHO Annual Meeting 2025 (abstract). Co-author."
   }
 ]
