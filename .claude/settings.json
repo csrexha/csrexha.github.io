@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=\"${CLAUDE_PROJECT_DIR:-$HOME/projects/rexha-website}/todo-list.md\"; [ -f \"$f\" ] || exit 0; jq -n --rawfile t \"$f\" '{systemMessage: (\"Open items for the website (todo-list.md):\\n\\n\" + $t), hookSpecificOutput: {hookEventName: \"SessionStart\", additionalContext: (\"Open items and standing reminders for this repo, from todo-list.md:\\n\\n\" + $t)}}'",
+            "timeout": 10,
+            "statusMessage": "Loading todo-list.md"
+          }
+        ]
+      }
+    ]
+  }
+}
