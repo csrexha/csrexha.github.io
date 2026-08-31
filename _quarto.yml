@@ -26,7 +26,7 @@ website:
         text: Blog
     right:
       - text: "DE"
-        href: de/index.qmd
+        href: de/index.html
       - icon: github
         href: https://github.com/csrexha
         target: _blank

@@ -170,8 +170,15 @@ A passing audit against a stale list is worse than no audit.
 - **GitHub Pages source is the `gh-pages` branch**, set once via the API. If the site
   404s while `gh-pages` has correct content, Pages is pointed at the wrong branch or
   needs a rebuild — not a content problem.
-- `_site/de/index.qmd` gets copied into the output as a stray resource. Cosmetic; the
-  repo is public anyway. Ignore it.
+- **Cross-project navbar links must be written as `.html`.** Quarto rewrites `.qmd` →
+  `.html` only for files in its *own* render list, so the English navbar's
+  `href: de/index.qmd` shipped verbatim into every English page. GitHub Pages served it
+  as `application/octet-stream`: clicking **DE** downloaded the German homepage's source
+  instead of opening the site, and there was no working way into German at all. It also
+  explains the stray `_site/de/index.qmd` that used to appear in the build — Quarto
+  copied it because the link referenced it as a resource. Fixing the href to
+  `de/index.html` removed both. A build-output link check does not catch this: the
+  target file existed.
 
 ## 13. German output
 
