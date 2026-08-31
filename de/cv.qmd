@@ -18,8 +18,10 @@ Mainz, Deutschland · [hachungshingrex@gmail.com](mailto:hachungshingrex@gmail.c
 [ORCID 0000-0001-5238-0963](https://orcid.org/0000-0001-5238-0963) ·
 [github.com/csrexha](https://github.com/csrexha)
 
+::: {.content-visible when-format="typst"}
 Niederlassungserlaubnis (unbefristet) — uneingeschränkte Arbeitserlaubnis, keine
 Genehmigung durch den Arbeitgeber erforderlich.
+:::
 
 ## Berufserfahrung
 
