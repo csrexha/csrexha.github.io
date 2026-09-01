@@ -25,7 +25,7 @@
     "href": "cv.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education\n\nPhD, Biology — Johannes Gutenberg University Mainz · 2023 – present\n\nOmics-based Biomarker Discovery for Familial Pancreatic Cancer using Machine Learning. Write-up stage; submission targeted end 2026 / early 2027.\n\nM.Sc. Biostatistics — Ludwig Maximilian University of Munich · 2019\n\nThesis: Bayesian Blind Estimation of the Arterial Input Function in Dynamic Contrast-Enhanced MRI (R, Stan).\n\n\nB.Sc. Investment Science — Hong Kong Polytechnic University · 2013\nHigher Diploma in Financial Planning — Hong Kong\n\nDSH-2 — Ludwig Maximilian University of Munich · 2016\n\nGerman language qualification for university admission."
+    "text": "Education\n\nPhD, Biology — Johannes Gutenberg University Mainz · 2023 – present\n\nOmics-based Biomarker Discovery for Familial Pancreatic Cancer using Machine Learning. Write-up stage. External and part-time — no laboratory dependency and no university contract.\n\nM.Sc. Biostatistics — Ludwig Maximilian University of Munich · 2019\n\nThesis: Bayesian Blind Estimation of the Arterial Input Function in Dynamic Contrast-Enhanced MRI (R, Stan).\n\n\nB.Sc. Investment Science — Hong Kong Polytechnic University · 2013\nHigher Diploma in Financial Planning — Hong Kong\n\nDSH-2 — Ludwig Maximilian University of Munich · 2016\n\nGerman language qualification for university admission."
   },
   {
     "objectID": "cv.html#selected-projects",
@@ -109,7 +109,14 @@
     "href": "publications.html#manuscripts-under-review",
     "title": "Publications",
     "section": "Manuscripts under review",
-    "text": "Manuscripts under review\nHa CSR, et al. A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic Biomarkers through Machine Learning. Under review, 2026.\n: First author. Machine learning on LC-MS metabolomics for early detection, with a molecular interaction network constructed using Gaussian graphical models to reveal key interactions among compounds in high-risk individuals.\nBüchler B, Büttner M, Gianicolo E, Ha CSR. Effects of care of multimorbid patients in general practices by advanced practice nurses. Results of a nonrandomized controlled trial. Submitted to BMC Health Services Research.\n: Co-author and lead study statistician for the quantitative evaluation. I authored the statistical analysis plan and ran all endpoint analyses.\nHerold S, Tilch M-K, Simon L, Kinkel B, Schranz M, Theobald M, Ha CSR, Singer S, Hess G. Information deficits and satisfaction with education process in patients with malignant lymphoma: correlation of objective and subjective informedness. Under review at The Oncologist, submitted July 2026.\n: Co-author and statistician — a study I supported from design and sample size through analysis to submission."
+    "text": "Manuscripts under review\nBüchler B, Büttner M, Gianicolo E, Ha CSR. Effects of care of multimorbid patients in general practices by advanced practice nurses. Results of a nonrandomized controlled trial. Submitted to BMC Health Services Research.\n: Co-author and lead study statistician for the quantitative evaluation. I authored the statistical analysis plan and ran all endpoint analyses.\nHerold S, Tilch M-K, Simon L, Kinkel B, Schranz M, Theobald M, Ha CSR, Singer S, Hess G. Information deficits and satisfaction with education process in patients with malignant lymphoma: correlation of objective and subjective informedness. Under review at The Oncologist, submitted July 2026.\n: Co-author and statistician — a study I supported from design and sample size through analysis to submission."
+  },
+  {
+    "objectID": "publications.html#manuscripts-in-preparation",
+    "href": "publications.html#manuscripts-in-preparation",
+    "title": "Publications",
+    "section": "Manuscripts in preparation",
+    "text": "Manuscripts in preparation\nHa CSR, et al. A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic Biomarkers through Machine Learning. In preparation.\n: First author. Machine learning on LC-MS metabolomics for early detection, with a molecular interaction network constructed using Gaussian graphical models to reveal key interactions among compounds in high-risk individuals."
   },
   {
     "objectID": "publications.html#conference-contributions",
