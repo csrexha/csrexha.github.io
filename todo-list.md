@@ -16,10 +16,10 @@ Keep this file short. Close items when they are done; do not let it become a log
       foreseeable submission date. This is one problem wearing two hats: it suppresses the
       publication record *and* blocks the cumulative dissertation route, which is why the
       PhD submission date had to come off this site. Nothing on the publications page
-      improves until this moves. → `04-gaps.md § C`
+      improves until this moves. → `job-application/TODO.md`
 - [ ] **Settle the dissertation route.** Cumulative or monograph, and whether a switch
       needs faculty agreement. Until it is settled the CV pages carry no submission date,
-      which is correct but weaker than a decided plan. → `04-gaps.md § C`
+      which is correct but weaker than a decided plan. → `job-application/TODO.md`
 - [ ] **Document the VAST-AF contribution.** Rex is 3rd of 4 authors in
       *American Heart Journal* 2024 and the role is unrecorded, so the page says only
       "statistical consulting" and must not say more until
@@ -44,8 +44,10 @@ Keep this file short. Close items when they are done; do not let it become a log
 
 ## Knowledge-base follow-ups this site created
 
-- [ ] **Add VAST-AF to every CV** in `documents/cv/` — four published papers, not three.
+- [ ] **Add VAST-AF to every CV** in `job-application/01-documents/cv/` — four published
+      papers, not three.
 - [ ] **Update every document** to the resolved email (`hachungshingrex@gmail.com`) and
       GitHub handle (`csrexha`); existing files use a mix of both.
-- [ ] **`documents/profile/` is untracked in git.** The single source of truth has no
-      version history. For files whose purpose is catching drift, that is worth fixing.
+- [ ] **`job-application/02-personal-wiki/profile/` is untracked in git.** The single
+      source of truth has no version history. For files whose purpose is catching drift,
+      that is worth fixing.
