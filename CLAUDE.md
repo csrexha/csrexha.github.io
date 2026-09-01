@@ -7,7 +7,7 @@ Live at **https://csrexha.github.io**. Source: `github.com/csrexha/csrexha.githu
 
 This repo is a **rendering surface, not a source of truth**. Every factual sentence on
 the site originates in the knowledge base at
-`~/projects/job-application/documents/profile/` and is reproduced here — never authored
+`~/projects/job-application/02-personal-wiki/profile/` and is reproduced here — never authored
 here.
 
 **Open items and standing reminders live in `todo-list.md`**, not in this file. It is
@@ -19,7 +19,7 @@ printed at the start of every session by the `SessionStart` hook in
 > **No claim originates in this repo.**
 >
 > Every factual sentence must resolve to a vetted claim in
-> `~/projects/job-application/documents/profile/02-claims.md`.
+> `~/projects/job-application/02-personal-wiki/profile/02-claims.md`.
 
 If the site needs something the claims library does not cover, the fix is to add a
 properly-tiered claim there first — never to write it here. If it cannot be sourced, it
@@ -59,9 +59,9 @@ Also **never on this site**:
 
 | Path | Use |
 |---|---|
-| `~/projects/job-application/documents/profile/02-claims.md` | **The only source of site prose.** EN + DE, tiered |
-| `~/projects/job-application/documents/profile/01-facts.md` | Dates, titles, citations, ORCID |
-| `~/projects/job-application/documents/profile/04-gaps.md` | Read before publishing — unresolved items |
+| `~/projects/job-application/02-personal-wiki/profile/02-claims.md` | **The only source of site prose.** EN + DE, tiered |
+| `~/projects/job-application/02-personal-wiki/profile/01-facts.md` | Dates, titles, citations, ORCID |
+| `~/projects/job-application/02-personal-wiki/profile/04-gaps.md` | Read before publishing — unresolved items |
 | Everything else in `job-application/` | **Do not read into this repo.** Private career material |
 
 The two repos are separate on purpose. Never add `job-application` as a submodule, never
@@ -146,13 +146,21 @@ It must find **zero** of:
 
 | Class | What it catches |
 |---|---|
-| **T4** | SAS · non-inferiority · "sole study statistician" unqualified · GCP · "20+" sample sizes · ran/led the consulting service · immunology expertise · Shockwave · multiplicity · first-author-on-IMPETUS · "available in October" |
+| **T4** | SAS · non-inferiority · "sole study statistician" unqualified · GCP · "20+" sample sizes · ran/led the consulting service · immunology expertise · Shockwave · multiplicity · first-author-on-IMPETUS · "available in October" · **metabolomics manuscript as submitted or under review** (EN: "under review", "submitted"; DE: "in Begutachtung", "eingereicht" — check they appear only against the two manuscripts that name a journal) · **a PhD submission date** ("end 2026", "early 2027", "Ende 2026", "Anfang 2027") |
 | **T3** | RAG · agentic workflows · LLM tooling |
 | **Private** | street address · phone · date of birth · grades (2.52, befriedigend, Second Class Honours, 49.5) |
 | **Stale** | "available immediately" / "ab sofort" |
 
 Re-derive this list from the **current** T4 table in `02-claims.md` each time — it grows.
 A passing audit against a stale list is worse than no audit.
+
+The last two rows were added 2026-09-01, when a grill session established that the
+first-author metabolomics manuscript had **never been submitted to any journal** — it sits
+with the supervisor, submission unforeseeable. The site had said "Under review, 2026" and
+"In Begutachtung, 2026" in both languages. Correct wording is **in preparation**. The same
+session withdrew the PhD submission date, because the dissertation route is undecided:
+the cumulative path is blocked by that unsubmitted paper. Neither may return without new
+evidence recorded in `02-claims.md` first.
 
 ## 12. Gotchas — learned the hard way, do not re-discover
 

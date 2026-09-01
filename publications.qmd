@@ -54,14 +54,6 @@ cancer using statistical learning.
 
 ## Manuscripts under review
 
-**[Ha CSR]{.underline}, et al.**
-A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic
-Biomarkers through Machine Learning. *Under review, 2026.*
-
-: First author. Machine learning on LC-MS metabolomics for early detection, with a
-  molecular interaction network constructed using Gaussian graphical models to
-  reveal key interactions among compounds in high-risk individuals.
-
 **Büchler B, Büttner M, Gianicolo E, [Ha CSR]{.underline}.**
 Effects of care of multimorbid patients in general practices by advanced practice
 nurses. Results of a nonrandomized controlled trial.
@@ -78,6 +70,16 @@ malignant lymphoma: correlation of objective and subjective informedness.
 
 : Co-author and statistician — a study I supported from design and sample size
   through analysis to submission.
+
+## Manuscripts in preparation
+
+**[Ha CSR]{.underline}, et al.**
+A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic
+Biomarkers through Machine Learning. *In preparation.*
+
+: First author. Machine learning on LC-MS metabolomics for early detection, with a
+  molecular interaction network constructed using Gaussian graphical models to
+  reveal key interactions among compounds in high-risk individuals.
 
 ## Conference contributions
 

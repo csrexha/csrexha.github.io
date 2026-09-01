@@ -54,14 +54,6 @@ cancer using statistical learning.
 
 ## Manuskripte in Begutachtung
 
-**[Ha CSR]{.underline}, et al.**
-A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic
-Biomarkers through Machine Learning. *In Begutachtung, 2026.*
-
-: Erstautor. Maschinelles Lernen auf LC-MS-Metabolomics-Daten zur Früherkennung sowie
-  Konstruktion eines metabolomischen Interaktionsnetzwerks mittels Gaußscher
-  graphischer Modelle zur Aufdeckung zentraler Wechselwirkungen bei Hochrisikopersonen.
-
 **Büchler B, Büttner M, Gianicolo E, [Ha CSR]{.underline}.**
 Effects of care of multimorbid patients in general practices by advanced practice
 nurses. Results of a nonrandomized controlled trial.
@@ -79,6 +71,16 @@ malignant lymphoma: correlation of objective and subjective informedness.
 
 : Koautor und Statistiker — von Konzeption und Fallzahlplanung über die Auswertung
   bis zur Einreichung begleitet.
+
+## Manuskripte in Vorbereitung
+
+**[Ha CSR]{.underline}, et al.**
+A Metabolomics Approach to Familial Pancreatic Cancer: Discovering Early Diagnostic
+Biomarkers through Machine Learning. *In Vorbereitung.*
+
+: Erstautor. Maschinelles Lernen auf LC-MS-Metabolomics-Daten zur Früherkennung sowie
+  Konstruktion eines metabolomischen Interaktionsnetzwerks mittels Gaußscher
+  graphischer Modelle zur Aufdeckung zentraler Wechselwirkungen bei Hochrisikopersonen.
 
 ## Konferenzbeiträge
 
