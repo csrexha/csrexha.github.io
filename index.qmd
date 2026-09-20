@@ -37,7 +37,7 @@ compartment modelling of MRI time-series, Bayesian additive regression trees on
 high-dimensional omics, precision-based sample-size determination, and a Bayesian
 zero-inflated negative binomial primary trial analysis.
 
-I am completing a PhD in the Faculty of Biology at Johannes Gutenberg University
+I am completing a PhD in Faculty 10 - Biology at Johannes Gutenberg University
 Mainz on omics-based biomarker discovery for familial pancreatic cancer using
 machine learning.
 
@@ -55,7 +55,7 @@ to high-dimensional proteomics and LC-MS metabolomics, with explainable-ML metho
 to make model behaviour interpretable to clinical collaborators.
 
 **Statistical consulting.** Six years advising doctoral candidates and research
-groups across more than fifteen clinical departments — translating clinical
+projects across more than fifteen clinical departments — translating clinical
 questions into designs, endpoints and analysis plans, and delivering
 publication-ready results.
 

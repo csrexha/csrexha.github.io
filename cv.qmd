@@ -48,7 +48,7 @@ work, no employer sponsorship required.
   biomarker discovery on next-generation proteomics and LC-MS metabolomics.
 - Restructured a single-table retrospective dataset into normalised relational
   tables suitable for analysis and publication.
-- Provided statistical consulting to medical doctoral candidates and research groups
+- Provided statistical consulting to medical doctoral candidates and research projects
   across more than fifteen clinical departments.
 
 ### Research Associate — Institute of Genetic Epidemiology, Helmholtz Zentrum München
@@ -71,10 +71,10 @@ work, no employer sponsorship required.
 
 ## Education
 
-**PhD, Biology** — Johannes Gutenberg University Mainz · 2023 – present
+**PhD, Biology** — Johannes Gutenberg University Mainz · registered 07/2026
 : *Omics-based Biomarker Discovery for Familial Pancreatic Cancer using Machine
-  Learning.* Write-up stage. External and part-time — no laboratory dependency and no
-  university contract.
+  Learning.* Write-up stage. The dissertation builds on research carried out during
+  my position at IMBEI.
 
 **M.Sc. Biostatistics** — Ludwig Maximilian University of Munich · 2019
 : Thesis: *Bayesian Blind Estimation of the Arterial Input Function in Dynamic

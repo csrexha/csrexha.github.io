@@ -19,7 +19,7 @@ Mainz, Deutschland · [hachungshingrex@gmail.com](mailto:hachungshingrex@gmail.c
 [github.com/csrexha](https://github.com/csrexha)
 
 ::: {.content-visible when-format="typst"}
-Niederlassungserlaubnis (unbefristet) — uneingeschränkte Arbeitserlaubnis, keine
+Niederlassungserlaubnis — uneingeschränkte Arbeitserlaubnis, keine
 Genehmigung durch den Arbeitgeber erforderlich.
 :::
 
@@ -48,7 +48,7 @@ Genehmigung durch den Arbeitgeber erforderlich.
   und LC-MS-Metabolomics.
 - Überführung eines retrospektiven Einzeltabellen-Datensatzes in normalisierte
   relationale Tabellen für Auswertung und Publikation.
-- Statistische Beratung für Doktorand:innen und Forschungsgruppen aus über fünfzehn
+- Statistische Beratung für Doktorand:innen und Forschungsprojekte aus über fünfzehn
   klinischen Fachbereichen.
 
 ### Wissenschaftlicher Mitarbeiter — Institut für Genetische Epidemiologie, Helmholtz Zentrum München
@@ -71,10 +71,9 @@ Genehmigung durch den Arbeitgeber erforderlich.
 
 ## Ausbildung
 
-**Promotion, Biologie** — Johannes Gutenberg-Universität Mainz · seit 2023
+**Promotion, Biologie** — Johannes Gutenberg-Universität Mainz · registriert 07/2026
 : *Omics-based Biomarker Discovery for Familial Pancreatic Cancer using Machine
-  Learning.* In der Schreibphase. Extern und berufsbegleitend — ohne Laborabhängigkeit
-  und ohne Universitätsvertrag.
+  Learning.* In der Schreibphase. Die Dissertation baut auf Forschung am IMBEI auf.
 
 **M.Sc. Biostatistik** — Ludwig-Maximilians-Universität München · 2019
 : Masterarbeit: *Bayesian Blind Estimation of the Arterial Input Function in Dynamic
@@ -130,7 +129,7 @@ R-pharmaverse.
 
 ## Lehre und Betreuung
 
-- Lehrbeauftragter für Regressionsanalyse im fächerübergreifenden Modul Q1 für
+- Dozent für Regressionsanalyse im fächerübergreifenden Modul Q1 für
   Medizinstudierende, IMBEI · 2020–2024.
 - Statistik-Workshops zu Hypothesentests für Doktorierende am Zentrum für Thrombose
   und Hämostase, Universitätsmedizin Mainz · 2023–2024.

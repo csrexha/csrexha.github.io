@@ -56,7 +56,7 @@ Explainable-ML-Methoden zur Vermittlung des Modellverhaltens an klinische
 Kooperationspartner.
 
 **Statistische Beratung.** Sechs Jahre Beratung von Doktorand:innen und
-Forschungsgruppen aus über fünfzehn klinischen Fachbereichen — Übersetzung klinischer
+Forschungsprojekten aus über fünfzehn klinischen Fachbereichen — Übersetzung klinischer
 Fragestellungen in Studiendesigns, Endpunkte und Analysepläne bis zu
 publikationsreifen Ergebnissen.
 

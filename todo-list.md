@@ -12,18 +12,22 @@ Keep this file short. Close items when they are done; do not let it become a log
       submitted**; the question presupposed an event that did not happen. The site said
       "Under review, 2026" / "In Begutachtung, 2026" in both languages and now says
       **in preparation**. → `02-claims.md` T4 table
-- [ ] 🔴 **Unblock the metabolomics manuscript.** It sits with Rex's supervisor with no
-      foreseeable submission date. This is one problem wearing two hats: it suppresses the
-      publication record *and* blocks the cumulative dissertation route, which is why the
-      PhD submission date had to come off this site. Nothing on the publications page
-      improves until this moves. → `job-application/TODO.md`
-- [ ] **Settle the dissertation route.** Cumulative or monograph, and whether a switch
-      needs faculty agreement. Until it is settled the CV pages carry no submission date,
-      which is correct but weaker than a decided plan. → `job-application/TODO.md`
+- [ ] 🔴 **Unblock the metabolomics manuscript.** It sits with Rex's supervisor; as of
+      2026-09-20 Rex expects submission by end of 2026, still not a confirmed date. It
+      no longer blocks the dissertation route (route is now monograph, see below), but
+      still suppresses the publication record on its own. → `job-application/TODO.md`
+- [x] ~~**Settle the dissertation route.**~~ **Done 2026-09-20 — monograph**, Rex's
+      unilateral decision, no faculty agreement needed. The metabolomics manuscript is
+      still submitted as a standalone paper in parallel. Plan:
+      `job-application/07-dissertation/writing-plan.md`. Still no submission date on
+      this site, correctly — the plan has only a first-draft target
+      (2026-12-31), not a defense date.
 - [ ] **Document the VAST-AF contribution.** Rex is 3rd of 4 authors in
       *American Heart Journal* 2024 and the role is unrecorded, so the page says only
       "statistical consulting" and must not say more until
-      `01-facts.md#vast-af` records what he actually did.
+      `01-facts.md#vast-af` records what he actually did. Checked 2026-09-20: the
+      paper itself has no author-contributions section to verify against (unlike OHCA,
+      which does and is now resolved) — still open, no new evidence found.
 
 ## Verification rules that never expire
 
@@ -33,7 +37,14 @@ Keep this file short. Close items when they are done; do not let it become a log
 - [ ] **Re-derive the audit list from the current T4 table** in `02-claims.md` on every
       run. The list grows. A passing audit against a stale list is worse than no audit.
 - [ ] **German connective prose needs Rex's correction pass.** The claim sentences are
-      the vetted `DE:` lines; the text between them is not his own.
+      the vetted `DE:` lines; the text between them is not his own. Standing rule, never
+      closes — but a pass on 2026-09-20 found and fixed four **content** errors, not
+      prose (both languages): "seit 2023"/"2023 – present" and
+      "berufsbegleitend"/"part-time" for the doctorate (both withdrawn on the claims
+      side), "Forschungsgruppen"/"research groups" (should be "Forschungsprojekte"/
+      "research projects"), and DE-only "Lehrbeauftragter" (should be "Dozent",
+      corrected in the claims library 2026-09-18). Rendered, audited clean, not yet
+      pushed — see next step.
 
 ## Open decisions
 
@@ -44,10 +55,15 @@ Keep this file short. Close items when they are done; do not let it become a log
 
 ## Knowledge-base follow-ups this site created
 
-- [ ] **Add VAST-AF to every CV** in `job-application/01-documents/cv/` — four published
-      papers, not three.
-- [ ] **Update every document** to the resolved email (`hachungshingrex@gmail.com`) and
-      GitHub handle (`csrexha`); existing files use a mix of both.
-- [ ] **`job-application/02-personal-wiki/profile/` is untracked in git.** The single
-      source of truth has no version history. For files whose purpose is catching drift,
-      that is worth fixing.
+- [x] ~~**Add VAST-AF to every CV** in `job-application/01-documents/cv/`.~~
+      **Superseded 2026-09-20** — Rex declined a blanket add (per-application decision,
+      not a standing one). Instead: `job-application/02-personal-wiki/profile/
+      05-publications.md`, a picking-list of every manuscript for future CV/site
+      decisions. IMPETUS got the same treatment.
+- [x] ~~**Update every document** to the resolved email and GitHub handle.~~
+      **Checked 2026-09-20** — every editable document already consistent; only
+      read-only historical `.docx` files in `job-application/01-documents/` carry old
+      variants, correctly untouched.
+- [x] ~~**`job-application/02-personal-wiki/profile/` is untracked in git.**~~ **False,
+      checked 2026-09-20** — it has full commit history (`git log` confirms). This item
+      was already stale when written.
