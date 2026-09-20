@@ -142,6 +142,13 @@ rm -rf _site && quarto render && (cd de && quarto render)
 Greps the *built* site — not the source — for withdrawn claims, self-reported claims and
 private material. Run it against `_site/` after every render.
 
+**Executable since 2026-09-20**: `python3 scripts/audit.py`. It also runs in CI
+(`.github/workflows/publish.yml`), after both renders and before publish, and fails the
+build on any match. It cannot read `job-application` at build time (§ 5) — its rule list
+is a **hand-maintained snapshot** of the table below, embedded in the script itself. A
+human (or an agent) must still re-derive it against the current T4 table before every push
+that might be affected; the script enforces the snapshot, it does not keep it current.
+
 It must find **zero** of:
 
 | Class | What it catches |

@@ -50,8 +50,13 @@ Keep this file short. Close items when they are done; do not let it become a log
 
 - [ ] **Custom domain** — undecided. Changing the URL after it is shared loses links.
 - [ ] **Favicon** — none set.
-- [ ] **Make the §11 audit executable** (`scripts/audit.py` + a CI step that fails the
-      build). An audit that cannot block a push is decorative.
+- [x] ~~**Make the §11 audit executable**~~ **Done 2026-09-20** — `scripts/audit.py`
+      (T4/T3/Private/Stale rules re-derived from the current `02-claims.md` T4 table),
+      wired into `.github/workflows/publish.yml` after both renders, before publish.
+      Tested clean against the current site and confirmed it catches injected violations.
+      ⚠ It's a hand-maintained snapshot, not a live read of `job-application` (can't be,
+      per § 5) — re-derive `scripts/audit.py`'s rule list by hand whenever a claim is
+      withdrawn or new private material would need catching.
 
 ## Knowledge-base follow-ups this site created
 
